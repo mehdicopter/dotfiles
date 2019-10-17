@@ -1,5 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export LANG="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/$USER/.oh-my-zsh"
@@ -65,12 +67,6 @@ HIST_STAMPS="yyyy-mm-dd"
 plugins=(adb aws colored-man-pages command-not-found common-aliases docker docker-compose extract gpg-agent git nmap osx screen)
 
 source $ZSH/oh-my-zsh.sh
-
-# User configuration
-
-# You may need to manually set your language environment
-export LANG="en_US.UTF-8"
-export LC_ALL="en_US.UTF-8"
 
 # Preferred editor for local and remote sessions
 export EDITOR="vim"
