@@ -86,6 +86,7 @@ export EDITOR="vim"
 # Example aliases
 alias cat=ccat
 alias sed=gsed
+alias vi=vim
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
