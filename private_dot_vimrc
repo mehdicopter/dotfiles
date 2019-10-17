@@ -1,1 +1,66 @@
-syntax on
+" VIM
+set nocompatible
+
+" Use spaces instead of tabs
+set expandtab
+
+" Be smart when using tabkey
+set smarttab
+
+" 1 tab == 2 spaces
+set shiftwidth=2
+set tabstop=2
+
+
+" Configure backspace so it acts as it should act
+set backspace=eol,start,indent
+
+" Show matching brackets when text indicator is over them
+set showmatch
+
+" No annoying sound on errors
+set noerrorbells
+set novisualbell
+set t_vb=
+set tm=500
+
+" Enable syntax highlighting
+syntax enable 
+
+" Set utf8 as standard encoding and en_US as the standard language
+set encoding=utf8
+
+" Use Unix as the standard file type
+set ffs=unix,dos,mac
+
+" Turn backup off, since most stuff is in SVN, git et.c anyway...
+set nobackup
+set nowb
+set noswapfile
+
+" Highlight all search results
+set hlsearch
+" Enable smart-case search
+set smartcase
+" Always case-insensitive
+set ignorecase
+" Searches for strings incrementally
+set incsearch
+
+" Auto-indent new lines
+set autoindent
+
+" Enable smart-indent
+set smartindent
+
+" Number of undo levels
+set undolevels=100
+
+" Clear highlight on pressing Space twice
+nnoremap <Space><Space> :noh<CR>
+
+" Replace or delete the word under cursor, press . to do it on other occurrences
+nnoremap <Leader>c /\<<C-R>=expand('<cword>')<CR>\>\C<CR>``cgn
+nnoremap <Leader>C ?\<<C-R>=expand('<cword>')<CR>\>\C<CR>``cgN
+nnoremap <Leader>d /\<<C-R>=expand('<cword>')<CR>\>\C<CR>``dgn
+nnoremap <Leader>D ?\<<C-R>=expand('<cword>')<CR>\>\C<CR>``dgN
