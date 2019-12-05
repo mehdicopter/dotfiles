@@ -11,7 +11,7 @@ export ZSH="/Users/$USER/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME=""
+ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -65,7 +65,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(adb aws colored-man-pages command-not-found common-aliases docker docker-compose extract gpg-agent git kube-ps1 kubectl minikube nmap osx screen)
+plugins=(adb aws colored-man-pages command-not-found common-aliases docker docker-compose extract gpg-agent git kubectl minikube nmap osx screen)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -84,6 +84,7 @@ export EDITOR="vim"
 alias cat=ccat
 alias sed=gsed
 alias vi=vim
+alias man=tldr
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
@@ -95,10 +96,7 @@ source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.z
 export WORKON_HOME=$HOME/.venv
 source /Users/$USER/Library/Python/2.7/bin/virtualenvwrapper.sh
 
+export DRONE_SERVER=https://ci.pathmotion.io
+
 export PYTHONWARNINGS="ignore"
 export PYTHONDONTWRITEBYTECODE=1
-
-eval "$(docker-machine env default)"
-
-autoload -U promptinit; promptinit
-prompt pure
