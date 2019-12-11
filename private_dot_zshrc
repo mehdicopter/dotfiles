@@ -64,6 +64,7 @@ export WORKON_HOME=$HOME/.venv
 source /Users/$USER/Library/Python/2.7/bin/virtualenvwrapper.sh
 
 export DRONE_SERVER=https://ci.pathmotion.io
+export JIRA_URL=https://pathmotion.atlassian.net
 
 export PYTHONWARNINGS="ignore"
 export PYTHONDONTWRITEBYTECODE=1
