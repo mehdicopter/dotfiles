@@ -52,6 +52,7 @@ alias cat=mdcat
 alias sed=gsed
 alias vi=vim
 alias man=tldr
+alias rgpg='gpg-connect-agent reloadagent /bye'
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
