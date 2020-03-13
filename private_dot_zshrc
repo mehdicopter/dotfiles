@@ -40,7 +40,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 HIST_STAMPS="yyyy-mm-dd"
 
 # Plugins
-plugins=(brew colored-man-pages command-not-found common-aliases docker docker-compose extract gcloud gpg-agent git kubectl minikube nmap osx screen vscode)
+plugins=(brew colored-man-pages command-not-found common-aliases docker docker-compose dotenv extract gcloud gpg-agent git kubectl minikube nmap osx screen vscode)
 
 source $ZSH/oh-my-zsh.sh
 
