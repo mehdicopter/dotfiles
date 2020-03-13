@@ -52,7 +52,7 @@ alias cat=mdcat
 alias sed=gsed
 alias vi=vim
 alias man=tldr
-alias rgpg='killall gpg-agent && gpg-connect-agent reloadagent /bye'
+alias rgpg='killall gpg-agent && source ~/.zshrc && gpg-connect-agent reloadagent /bye'
 alias testssl.sh='docker run --rm -ti drwetter/testssl.sh'
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
