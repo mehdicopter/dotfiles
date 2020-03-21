@@ -1,0 +1,6 @@
+[user]
+	name = mehdicopter
+	email = mehdi@pathmotion.com
+	signingkey = 0xB6197858A0EAB1FB
+[commit]
+	gpgsign = true
