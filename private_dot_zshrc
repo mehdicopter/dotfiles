@@ -73,6 +73,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 export PYTHONWARNINGS="ignore"
 export PYTHONDONTWRITEBYTECODE=1
 
+/usr/local/bin/docker-machine start
 eval "$(docker-machine env default)"
 
 autoload -Uz compinit
