@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=/usr/local/opt/python/libexec/bin:/usr/local/opt/helm@2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=/usr/local/opt/python/libexec/bin:/Users/mehdicopter/Library/Python/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 
@@ -48,7 +48,7 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR="vim"
 
 # Aliases
-alias cat=mdcat
+alias cat="bat -p"
 alias sed=gsed
 alias vi=vim
 alias man=tldr
