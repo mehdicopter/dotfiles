@@ -7,7 +7,7 @@ fi
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=/usr/local/opt/terraform@0.12/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=/usr/local/opt/terraform@0.12/bin:/usr/local/opt/python@3.7/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 
@@ -75,13 +75,13 @@ source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc
 source <(kubectl completion zsh)
 
 export WORKON_HOME=$HOME/.venv
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/opt/python@3.7/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
 
 export PYTHONWARNINGS="ignore"
 export PYTHONDONTWRITEBYTECODE=1
 
-/usr/local/bin/docker-machine start
-eval "$(docker-machine env default)"
+export CLOUDSDK_PYTHON=/usr/local/opt/python@3.7/bin/python3
 
 autoload -Uz compinit
 compinit
