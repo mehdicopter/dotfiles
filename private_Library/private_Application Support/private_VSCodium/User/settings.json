@@ -1,0 +1,7 @@
+{
+    "editor.renderWhitespace": "all",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.external.linuxExec": "iterm",
+    "terminal.external.osxExec": "Iterm.app",
+    "workbench.iconTheme": "vscode-icons",
+}
