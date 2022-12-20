@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":disableDependencyDashboard"
+  ],
+  "enabledManagers": [
+    "github-actions"
+  ],
+  "labels": [
+    "renovate"
+  ],
+  "timezone": "Europe/Paris"
+}
