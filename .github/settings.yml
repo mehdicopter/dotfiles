@@ -17,13 +17,13 @@ repository:
 
 labels:
   - name: homebrew
-    color: '#f6b650'
+    color: "#f6b650"
     description: Package Manager for macOS
   - name: renovate
-    color: '#047ca3'
+    color: "#047ca3"
     description: Renovate Bot
   - name: settings
-    color: '#845ec2'
+    color: "#845ec2"
     description: Repository Settings
 
 collaborators:
@@ -34,7 +34,9 @@ branches:
   - name: main
     protection:
       required_conversation_resolution: true
-      required_pull_request_reviews: {}
+      required_pull_request_reviews:
+        dismiss_stale_reviews: true
+        require_code_owner_reviews: true
       required_status_checks:
         strict: true
         contexts: ["commitlint"]
