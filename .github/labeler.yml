@@ -1,0 +1,5 @@
+homebrew:
+  - "run_once_*.sh"
+
+settings:
+  - ".github/**/*"
