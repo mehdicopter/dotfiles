@@ -37,3 +37,13 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [tflint](https://github.com/terraform-linters/tflint)
 - [infracost](https://github.com/infracost/infracost)
 - [driftctl](https://driftctl.com/)
+
+#### Kubernetes
+
+- [kubectl](https://kubernetes.io/docs/reference/kubectl/)
+- [k9s](https://k9scli.io/)
+- [kubectx](https://github.com/ahmetb/kubectx) + `kubens`
+- [kubetail](https://github.com/johanhaleby/kubetail)
+- [popeye](https://github.com/derailed/popeye)
+- [helm](https://helm.sh/)
+- [helm-docs](https://github.com/norwoodj/helm-docs)
