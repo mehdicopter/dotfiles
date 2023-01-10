@@ -37,6 +37,7 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [tflint](https://github.com/terraform-linters/tflint)
 - [infracost](https://github.com/infracost/infracost)
 - [driftctl](https://driftctl.com/)
+- [terraform-docs](https://terraform-docs.io/)
 
 #### Kubernetes
 
