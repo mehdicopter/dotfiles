@@ -47,3 +47,11 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [popeye](https://github.com/derailed/popeye)
 - [helm](https://helm.sh/)
 - [helm-docs](https://github.com/norwoodj/helm-docs)
+
+#### Docker
+
+- [docker](https://github.com/docker/cli)
+- [docker-buildx](https://github.com/docker/buildx)
+- [docker-compose](https://github.com/docker/compose)
+- [colima](https://github.com/abiosoft/colima)
+- [hadolint](https://github.com/hadolint/hadolint)

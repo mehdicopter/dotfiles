@@ -39,4 +39,11 @@ brew "kubetail"
 brew "popeye"
 brew "helm"
 brew "helm-docs"
+
+# Docker
+brew "docker"
+brew "docker-compose"
+brew "docker-buildx"
+brew "colima"
+brew "hadolint"
 EOF
