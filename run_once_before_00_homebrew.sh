@@ -30,6 +30,7 @@ brew "tfsec"
 brew "tflint"
 brew "infracost"
 brew "driftctl"
+brew "terraform-docs"
 
 # Kubernetes
 brew "kubectl"
