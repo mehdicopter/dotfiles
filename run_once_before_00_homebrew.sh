@@ -17,4 +17,12 @@ cask "transmission"
 cask "rectangle"
 cask "slack"
 cask "visual-studio-code"
+
+## binaries
+# Terraform
+brew "terraform"
+brew "tfsec"
+brew "tflint"
+brew "infracost"
+brew "driftctl"
 EOF
