@@ -1,6 +1,11 @@
 #!/bin/bash
 
 brew bundle --no-lock --file=/dev/stdin <<EOF
+## taps
+tap "johanhaleby/kubetail"
+tap "derailed/popeye"
+tap "norwoodj/tap"
+
 ## casks
 cask_args appdir: "~/Applications", require_sha: true
 
@@ -25,4 +30,13 @@ brew "tfsec"
 brew "tflint"
 brew "infracost"
 brew "driftctl"
+
+# Kubernetes
+brew "kubectl"
+brew "k9s"
+brew "kubectx"
+brew "kubetail"
+brew "popeye"
+brew "helm"
+brew "helm-docs"
 EOF
