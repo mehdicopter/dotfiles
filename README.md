@@ -27,3 +27,13 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [Rectangle](https://rectangleapp.com/) - Resize windows
 - [Slack](https://slack.com/) - Messaging app for business
 - [Visual Studio Code](https://code.visualstudio.com/) - Code Editor
+
+### Binaries
+
+#### Terraform
+
+- [terraform](https://www.terraform.io/)
+- [tfsec](https://github.com/aquasecurity/tfsec)
+- [tflint](https://github.com/terraform-linters/tflint)
+- [infracost](https://github.com/infracost/infracost)
+- [driftctl](https://driftctl.com/)
