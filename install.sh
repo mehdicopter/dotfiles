@@ -17,7 +17,7 @@ case $answer in
     ;;
 esac
 
-export PATH=/opt/homebrew/bin:$PATH
+export PATH=/usr/local/bin:$PATH
 
 # Install Homebrew
 command -v brew >/dev/null 2>&1 || \
