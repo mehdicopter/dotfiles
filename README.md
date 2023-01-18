@@ -65,6 +65,7 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [gh](https://github.com/cli/cli)
 - [glab](https://gitlab.com/gitlab-org/cli)
 - [bash](https://www.gnu.org/software/bash/)
+- [zsh](https://www.zsh.org/)
 - [gnu-sed](https://www.gnu.org/software/sed/manual/sed.html)
 - [gnupg](https://gnupg.org/)
 - [gpgme](https://gnupg.org/software/gpgme/index.html)
@@ -87,3 +88,37 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [bat](https://github.com/sharkdp/bat)
 - [mdcat](https://github.com/swsnr/mdcat)
 - [vim](https://www.vim.org/)
+
+## Oh My Zsh
+
+I do have [OhMyZsh](https://github.com/ohmyzsh/ohmyzsh) in order to pimp my terminal and improve my productivity.
+
+I am using the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
+
+### Customization
+
+- [Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [Completions](https://github.com/zsh-users/zsh-completions)
+- [History Substring Search](https://github.com/zsh-users/zsh-history-substring-search)
+
+### Plugins
+
+- [aliases](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases)
+- [command-not-found](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/command-not-found)
+- [common-aliases](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/common-aliases)
+- [copyfile](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copyfile) - [docker-compose](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker-compose)
+- [docker](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker)
+- [encode64](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/encode64)
+- [extract](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/extract)
+- [genpass](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/genpass)
+- [gh](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gh)
+- [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git)
+- [gpg-agent](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gpg-agent)
+- [helm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/helm)
+- [kubectl](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectl)
+- [macos](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos)
+- [terraform](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/terraform)
+- [thefuck](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/thefuck)
+- [vscode](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vscode)
+- [web-search](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search)
