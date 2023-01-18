@@ -123,3 +123,19 @@ I am using the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 - [thefuck](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/thefuck)
 - [vscode](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vscode)
 - [web-search](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search)
+
+## VSCode
+
+### Extensions
+
+- [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)
+- [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Markdown Emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
+- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+- [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)
+- [JSON Crack](https://marketplace.visualstudio.com/items?itemName=aykutsarac.jsoncrack-vscode)
+- [Gitlab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
+- [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
