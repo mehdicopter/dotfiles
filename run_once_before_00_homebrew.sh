@@ -5,6 +5,7 @@ brew bundle --no-lock --file=/dev/stdin <<EOF
 tap "johanhaleby/kubetail"
 tap "derailed/popeye"
 tap "norwoodj/tap"
+tap "romkatv/powerlevel10k"
 
 ## casks
 cask_args appdir: "~/Applications", require_sha: true
@@ -76,4 +77,12 @@ brew "yq"
 brew "bat"
 brew "mdcat"
 brew "vim"
+
+## OhMyZsh
+brew "zsh"
+brew "powerlevel10k"
+brew "zsh-syntax-highlighting"
+brew "zsh-autosuggestions"
+brew "zsh-completions"
+brew "zsh-history-substring-search"
 EOF
