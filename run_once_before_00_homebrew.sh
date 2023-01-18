@@ -17,7 +17,7 @@ cask "iterm2"
 cask "keepingyouawake"
 cask "signal"
 cask "whatsapp"
-cask "spotify"
+cask "spotify", args: { require_sha: false }
 cask "vlc"
 cask "transmission"
 cask "rectangle"
