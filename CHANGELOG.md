@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.3.0](https://github.com/mehdicopter/dotfiles/compare/v1.2.0...v1.3.0) (2023-01-18)
+
+
+### Features
+
+* add ohmyzsh ([#17](https://github.com/mehdicopter/dotfiles/issues/17)) ([4982bee](https://github.com/mehdicopter/dotfiles/commit/4982bee9e41b9d99799ac09e9911c2f87ce5e93a))
+
+
+### Bug Fixes
+
+* do not require sha256 for spotify ([#19](https://github.com/mehdicopter/dotfiles/issues/19)) ([9e4b8e3](https://github.com/mehdicopter/dotfiles/commit/9e4b8e361c735f6714df84d913d8c37a12e583a1))
+* install 1password within /Applications ([#20](https://github.com/mehdicopter/dotfiles/issues/20)) ([90c4e03](https://github.com/mehdicopter/dotfiles/commit/90c4e03fa6827d9aa795de9abc36c31e30bf7ecc))
+
 ## [1.2.0](https://github.com/mehdicopter/dotfiles/compare/v1.1.0...v1.2.0) (2023-01-10)
 
 
