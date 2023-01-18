@@ -1,0 +1,23 @@
+[user]
+  name = Mehdi MAHFOUDI
+  username = mehdicopter
+  email = contact@mahfoudi.me
+  signingkey = 0xBD294252A04ADE1C
+[commit]
+  gpgsign = true
+[pull]
+  rebase = true
+[push]
+  default = upstream
+  followTags = true
+  autoSetupRemote = true
+[diff]
+  mnemonicprefix = true
+[rebase]
+  autoSquash = true
+[alias]
+  fixup = "!git log -n 50 --pretty=format:'%h %s' --no-merges | fzf | cut -c -7 | xargs -o git commit --fixup"
+[init]
+  defaultBranch = main
+[includeIf "gitdir:~/Scaleway"]
+  path = ~/.gitconfig-scaleway
