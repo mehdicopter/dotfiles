@@ -89,6 +89,7 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [mdcat](https://github.com/swsnr/mdcat)
 - [vim](https://www.vim.org/)
 - [php](https://www.php.net/)
+- [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/)
 
 ## Oh My Zsh
 
