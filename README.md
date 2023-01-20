@@ -88,6 +88,7 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [bat](https://github.com/sharkdp/bat)
 - [mdcat](https://github.com/swsnr/mdcat)
 - [vim](https://www.vim.org/)
+- [php](https://www.php.net/)
 
 ## Oh My Zsh
 
@@ -139,3 +140,11 @@ I am using the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 - [JSON Crack](https://marketplace.visualstudio.com/items?itemName=aykutsarac.jsoncrack-vscode)
 - [Gitlab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+
+## Alfred
+
+### Workflows
+
+- [VSCode](https://github.com/alexchantastic/alfred-open-with-vscode-workflow)
+- [GitHub](https://github.com/gharlan/alfred-github-workflow)
+- [GitLab](https://github.com/lukewaite/alfred-gitlab)
