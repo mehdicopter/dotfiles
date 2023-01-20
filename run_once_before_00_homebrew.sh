@@ -77,6 +77,7 @@ brew "yq"
 brew "bat"
 brew "mdcat"
 brew "vim"
+brew "php"
 
 ## OhMyZsh
 brew "zsh"
