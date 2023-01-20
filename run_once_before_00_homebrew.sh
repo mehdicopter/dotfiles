@@ -78,6 +78,7 @@ brew "bat"
 brew "mdcat"
 brew "vim"
 brew "php"
+brew "virtualenvwrapper"
 
 ## OhMyZsh
 brew "zsh"
