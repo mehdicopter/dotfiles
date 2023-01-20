@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.4.0](https://github.com/mehdicopter/dotfiles/compare/v1.3.0...v1.4.0) (2023-01-20)
+
+
+### Features
+
+* add alfred workflows ([#25](https://github.com/mehdicopter/dotfiles/issues/25)) ([1548962](https://github.com/mehdicopter/dotfiles/commit/15489623d1c5ae9e48a796893b1af7ac9a928430))
+* add gitconfig ([#23](https://github.com/mehdicopter/dotfiles/issues/23)) ([390720f](https://github.com/mehdicopter/dotfiles/commit/390720f2aff0ef89e9e4417f3b405a60d4d17f65))
+* add GPG configuration files ([#24](https://github.com/mehdicopter/dotfiles/issues/24)) ([0639f2e](https://github.com/mehdicopter/dotfiles/commit/0639f2e08643556a96b14cad08ea43d522f6cd98))
+* add VSCode with extensions ([#21](https://github.com/mehdicopter/dotfiles/issues/21)) ([3654b21](https://github.com/mehdicopter/dotfiles/commit/3654b211ee61c47c9f90a4b71d9f58bd6be40965))
+
 ## [1.3.0](https://github.com/mehdicopter/dotfiles/compare/v1.2.0...v1.3.0) (2023-01-18)
 
 
