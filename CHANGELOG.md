@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.0](https://github.com/mehdicopter/dotfiles/compare/v1.4.0...v1.5.0) (2023-03-03)
+
+
+### Features
+
+* add vault ([#28](https://github.com/mehdicopter/dotfiles/issues/28)) ([c57b57a](https://github.com/mehdicopter/dotfiles/commit/c57b57a646d6175e0929432d7c33d79019aa2717))
+* add virtualenvwrapper ([#26](https://github.com/mehdicopter/dotfiles/issues/26)) ([03682cf](https://github.com/mehdicopter/dotfiles/commit/03682cfd91cd911b74230a636eb4a024705588a9))
+
 ## [1.4.0](https://github.com/mehdicopter/dotfiles/compare/v1.3.0...v1.4.0) (2023-01-20)
 
 
