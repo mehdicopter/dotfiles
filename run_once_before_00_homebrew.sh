@@ -80,6 +80,8 @@ brew "vim"
 brew "php"
 brew "virtualenvwrapper"
 brew "vault"
+brew "pylint"
+brew "yamllint"
 
 ## OhMyZsh
 brew "zsh"
