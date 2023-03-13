@@ -1,28 +1,24 @@
 {
-    "telemetry.telemetryLevel": "off",
-    "redhat.telemetry.enabled": false,
-  
-    "files.insertFinalNewline": true,
-    "editor.tabSize": 2,
-    "editor.insertSpaces": true,
-    "editor.detectIndentation": false,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": "active",
-    "editor.formatOnSave": true,
-    "editor.accessibilitySupport": "off",
-  
-    "workbench.colorTheme": "Atom One Dark",
-    "workbench.startupEditor": "none",
-    "workbench.iconTheme": "vscode-icons",
-    "terminal.integrated.fontFamily": "MesloLGS NF",
-    "terminal.integrated.defaultProfile.osx": "zsh",
-    "terminal.external.osxExec": "iTerm.app",
-    "vsicons.dontShowNewVersionMessage": true,
-
-    "prettier.bracketSpacing": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[yaml]": {
-      "editor.defaultFormatter": "redhat.vscode-yaml"
-    },
-    "better-comments.multilineComments": true,
-  }
+  "better-comments.multilineComments": true,
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "extensions.ignoreRecommendations": true,
+  "files.insertFinalNewline": true,
+  "prettier.bracketSpacing": false,
+  "prettier.requireConfig": true,
+  "redhat.telemetry.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none"
+}
