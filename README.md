@@ -91,6 +91,8 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [php](https://www.php.net/)
 - [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/)
 - [Vault](https://vaultproject.io/)
+- [pylint](https://pylint.readthedocs.io/en/latest/)
+- [yamllint](https://github.com/adrienverge/yamllint)
 
 ## Oh My Zsh
 
