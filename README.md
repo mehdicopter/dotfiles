@@ -117,6 +117,7 @@ I am using the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 ### Plugins
 
 - [aliases](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases)
+- [brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)
 - [command-not-found](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/command-not-found)
 - [common-aliases](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/common-aliases)
 - [copyfile](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copyfile)
