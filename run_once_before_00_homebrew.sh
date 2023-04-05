@@ -24,6 +24,7 @@ cask "rectangle"
 cask "slack"
 cask "visual-studio-code"
 cask "wireshark"
+cask "insomnia"
 
 ## binaries
 # Terraform
