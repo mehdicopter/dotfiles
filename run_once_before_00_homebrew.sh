@@ -82,6 +82,7 @@ brew "virtualenvwrapper"
 brew "vault"
 brew "pylint"
 brew "yamllint"
+brew "tmux"
 
 ## OhMyZsh
 brew "zsh"

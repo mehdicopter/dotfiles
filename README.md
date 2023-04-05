@@ -93,6 +93,7 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [Vault](https://vaultproject.io/)
 - [pylint](https://pylint.readthedocs.io/en/latest/)
 - [yamllint](https://github.com/adrienverge/yamllint)
+- [tmux](https://github.com/tmux/tmux/wiki)
 
 ## Oh My Zsh
 
