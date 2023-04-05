@@ -125,6 +125,7 @@ I am using the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 - [docker](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker)
 - [encode64](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/encode64)
 - [extract](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/extract)
+- [fluxcd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fluxcd)
 - [fzf](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fzf)
 - [genpass](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/genpass)
 - [gh](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gh)

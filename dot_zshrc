@@ -69,6 +69,7 @@ plugins=(
   docker
   encode64
   extract
+  fluxcd
   fzf
   genpass
   gh
