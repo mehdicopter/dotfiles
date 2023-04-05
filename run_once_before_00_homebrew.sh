@@ -84,6 +84,7 @@ brew "vault"
 brew "pylint"
 brew "yamllint"
 brew "tmux"
+brew "watch"
 
 ## OhMyZsh
 brew "zsh"
