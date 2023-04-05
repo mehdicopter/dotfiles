@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.6.0](https://github.com/mehdicopter/dotfiles/compare/v1.5.0...v1.6.0) (2023-04-05)
+
+
+### Features
+
+* **brew:** add insomnia ([ee737c0](https://github.com/mehdicopter/dotfiles/commit/ee737c08f3f4e66c538eff7e7fa5545de669dc86))
+* **brew:** add protonvpn ([61baa4a](https://github.com/mehdicopter/dotfiles/commit/61baa4aaa3979f7bbda39040bb2ebc2e8f5739d1))
+* **brew:** add tmux ([805ed08](https://github.com/mehdicopter/dotfiles/commit/805ed0893f457db596f6244e64914d31e9c7479a))
+* **brew:** add watch ([36cd384](https://github.com/mehdicopter/dotfiles/commit/36cd384a28d173c034e6ec938e329f1a3103e814))
+* **brew:** add wireshark ([7475640](https://github.com/mehdicopter/dotfiles/commit/747564047a9691f9831a49f26164671735d5ca40))
+* **git:** use hashconfig instead of directory ([73f4744](https://github.com/mehdicopter/dotfiles/commit/73f47446243e25c055c9b8d4acbc499902f90141))
+* **vscode:** require prettier configuration file ([dd50692](https://github.com/mehdicopter/dotfiles/commit/dd50692ad3da62c9910bbfb8eb13f31be00b7880))
+
 ## [1.5.0](https://github.com/mehdicopter/dotfiles/compare/v1.4.0...v1.5.0) (2023-03-03)
 
 
