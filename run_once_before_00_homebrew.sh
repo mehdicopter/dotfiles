@@ -25,6 +25,7 @@ cask "slack"
 cask "visual-studio-code"
 cask "wireshark"
 cask "insomnia"
+cask "protonvpn"
 
 ## binaries
 # Terraform

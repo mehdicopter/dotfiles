@@ -29,6 +29,7 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [Visual Studio Code](https://code.visualstudio.com/) - Code Editor
 - [Wireshark](https://www.wireshark.org/) - Network protocol analyzer
 - [Insomnia](https://insomnia.rest/) - API client
+- [ProtonVPN](https://protonvpn.com/) - VPN client
 
 ### Binaries
 
