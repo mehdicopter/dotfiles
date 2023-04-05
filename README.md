@@ -51,6 +51,7 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [popeye](https://github.com/derailed/popeye)
 - [helm](https://helm.sh/)
 - [helm-docs](https://github.com/norwoodj/helm-docs)
+- [krew](https://krew.sigs.k8s.io/)
 
 #### Docker
 

@@ -44,6 +44,7 @@ brew "kubetail"
 brew "popeye"
 brew "helm"
 brew "helm-docs"
+brew "krew"
 
 # Docker
 brew "docker"
