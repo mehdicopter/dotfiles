@@ -6,6 +6,7 @@ tap "johanhaleby/kubetail"
 tap "derailed/popeye"
 tap "norwoodj/tap"
 tap "romkatv/powerlevel10k"
+tap "fluxcd/tap"
 
 ## casks
 cask_args appdir: "~/Applications", require_sha: true
@@ -45,6 +46,7 @@ brew "popeye"
 brew "helm"
 brew "helm-docs"
 brew "krew"
+brew "fluxcd/tap/flux", link: true
 
 # Docker
 brew "docker"
