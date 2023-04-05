@@ -23,6 +23,7 @@ cask "transmission"
 cask "rectangle"
 cask "slack"
 cask "visual-studio-code"
+cask "wireshark"
 
 ## binaries
 # Terraform

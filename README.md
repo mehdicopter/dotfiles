@@ -27,6 +27,7 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [Rectangle](https://rectangleapp.com/) - Resize windows
 - [Slack](https://slack.com/) - Messaging app for business
 - [Visual Studio Code](https://code.visualstudio.com/) - Code Editor
+- [Wireshark](https://www.wireshark.org/) - Network protocol analyzer
 
 ### Binaries
 
