@@ -113,7 +113,7 @@ fi
 
 source $(brew --prefix)/bin/virtualenvwrapper.sh
 
-export PATH="/usr/local/opt/gnu-sed/libexec/gnubin/:/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
+export PATH="$HOME/.krew/bin:/usr/local/opt/gnu-sed/libexec/gnubin/:/usr/local/opt/gnu-tar/libexec/gnubin:/usr/local/sbin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
