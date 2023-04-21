@@ -11,7 +11,7 @@
   "extensions.ignoreRecommendations": true,
   "files.insertFinalNewline": true,
   "prettier.bracketSpacing": false,
-  "prettier.requireConfig": true,
+  "prettier.requireConfig": false,
   "redhat.telemetry.enabled": false,
   "telemetry.telemetryLevel": "off",
   "terminal.external.osxExec": "iTerm.app",
@@ -20,5 +20,14 @@
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.colorTheme": "Atom One Dark",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "prettier.enable": true,
+  "[python]": {
+    "editor.defaultFormatter": null
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": null
+  },
+  "python.formatting.blackArgs": ["--line-length", "100"],
+  "python.formatting.provider": "black"
 }
