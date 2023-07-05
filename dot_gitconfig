@@ -2,7 +2,7 @@
   name = Mehdi MAHFOUDI
   username = mehdicopter
   email = contact@mahfoudi.me
-  signingkey = 0xBD294252A04ADE1C
+  signingkey = 0xBD294252A04ADE1C!
 [commit]
   gpgsign = true
 [pull]
