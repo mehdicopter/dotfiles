@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.7.0](https://github.com/mehdicopter/dotfiles/compare/v1.6.0...v1.7.0) (2023-07-05)
+
+
+### Features
+
+* **k8s:** add flux cli ([6e428ae](https://github.com/mehdicopter/dotfiles/commit/6e428aed344a6437c65bceb8062abf5a06131e87))
+* **k8s:** add krew ([be5ca1d](https://github.com/mehdicopter/dotfiles/commit/be5ca1d670c4bc4ca6f39676dba630df38955cf3))
+* **vscode:** add python black linting ([c593f5f](https://github.com/mehdicopter/dotfiles/commit/c593f5f5be2c7081591e355ce31a6ab870ddad77))
+* **zsh:** enable brew plugin ([cb8123c](https://github.com/mehdicopter/dotfiles/commit/cb8123cfd618bd6094f981af8201cced82ee793f))
+* **zsh:** enable fluxcd plugin ([e05ded4](https://github.com/mehdicopter/dotfiles/commit/e05ded4c9ace136e760c17fee263e5cb3cf0d701))
+* **zsh:** enable fzf plugin ([a7fd3fe](https://github.com/mehdicopter/dotfiles/commit/a7fd3fef5605d17beb76080de1ae06b7c976b1a6))
+
 ## [1.6.0](https://github.com/mehdicopter/dotfiles/compare/v1.5.0...v1.6.0) (2023-04-05)
 
 
