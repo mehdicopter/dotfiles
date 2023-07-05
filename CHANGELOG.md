@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.8.0](https://github.com/mehdicopter/dotfiles/compare/v1.7.0...v1.8.0) (2023-07-05)
+
+
+### Features
+
+* **brew:** add grpcurl ([ee61156](https://github.com/mehdicopter/dotfiles/commit/ee61156a5a157c7e32693354976cbe5e72af7187))
+* **brew:** add ipmitool ([5b6b4fb](https://github.com/mehdicopter/dotfiles/commit/5b6b4fb09970710f5808a330d5b83da331370262))
+* **brew:** add kubeconform ([ae5f187](https://github.com/mehdicopter/dotfiles/commit/ae5f187351dec9efc1ec98607747c282e2c66e3d))
+* **brew:** add nagstamon ([fb50bcb](https://github.com/mehdicopter/dotfiles/commit/fb50bcbc79458f9358fcee72cf5a7c24d1174687))
+* **brew:** add nomad ([2123a7c](https://github.com/mehdicopter/dotfiles/commit/2123a7c4736a4438896bfcef20c790f7ee72e8a4))
+* **brew:** add prometheus ([ac6370a](https://github.com/mehdicopter/dotfiles/commit/ac6370aa70255bf4fd10f9958404f08d79f92f84))
+* **brew:** add python black formatter ([5de0994](https://github.com/mehdicopter/dotfiles/commit/5de0994593359f16987d6af51204d55bd4299069))
+* **brew:** add scaleway-cli 💜 ([a8ae3f4](https://github.com/mehdicopter/dotfiles/commit/a8ae3f46990fc896805a3f2249e313be16aa66c1))
+* **vscode:** add formatter for yaml ([d7ea6ec](https://github.com/mehdicopter/dotfiles/commit/d7ea6ecf7695ad4ee47b3eba19606afa2d74d0e1))
+* **vscode:** add hashicorp extensions (hcl and terraform) ([c7a8015](https://github.com/mehdicopter/dotfiles/commit/c7a80155331e4110a2c039540e4c085a2a051d35))
+* **vscode:** add hcl format extension ([7660843](https://github.com/mehdicopter/dotfiles/commit/76608434129ffcaf39e34b39d79c8a00eb2d9ae1))
+* **vscode:** add json2yaml extension ([ba02573](https://github.com/mehdicopter/dotfiles/commit/ba02573e947094d22d8f851b1c91e149bba50c02))
+
+
+### Bug Fixes
+
+* **brew:** ipmitool moved to codeberg.org ([0f6cba1](https://github.com/mehdicopter/dotfiles/commit/0f6cba140184cb960641423691d8a016cab5d889))
+
 ## [1.7.0](https://github.com/mehdicopter/dotfiles/compare/v1.6.0...v1.7.0) (2023-07-05)
 
 
