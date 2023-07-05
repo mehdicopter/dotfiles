@@ -27,6 +27,7 @@ cask "visual-studio-code"
 cask "wireshark"
 cask "insomnia"
 cask "protonvpn"
+cask "nagstamon"
 
 ## binaries
 # Terraform
