@@ -13,6 +13,8 @@ extensions=(
   GitLab.gitlab-workflow
   redhat.vscode-yaml
   tuxtina.json2yaml
+  hashicorp.terraform
+  hashicorp.hcl
 )
 
 if ! [ -x "$(command -v code)" ]; then

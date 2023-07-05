@@ -155,6 +155,8 @@ I am using the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 - [Gitlab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 - [json2yaml](https://marketplace.visualstudio.com/items?itemName=tuxtina.json2yaml)
+- [HashiCorp HCL](https://marketplace.visualstudio.com/items?itemName=hashicorp.hcl)
+- [HashiCorp Terraform](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)
 
 ## Alfred
 
