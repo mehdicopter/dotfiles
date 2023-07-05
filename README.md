@@ -156,6 +156,7 @@ I am using the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 - [json2yaml](https://marketplace.visualstudio.com/items?itemName=tuxtina.json2yaml)
 - [HashiCorp HCL](https://marketplace.visualstudio.com/items?itemName=hashicorp.hcl)
+- [HCL Format](https://marketplace.visualstudio.com/items?itemName=fredwangwang.vscode-hcl-format)
 - [HashiCorp Terraform](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)
 
 ## Alfred

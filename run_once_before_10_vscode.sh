@@ -15,6 +15,7 @@ extensions=(
   tuxtina.json2yaml
   hashicorp.terraform
   hashicorp.hcl
+  fredwangwang.vscode-hcl-format
 )
 
 if ! [ -x "$(command -v code)" ]; then
