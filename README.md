@@ -54,6 +54,7 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [helm-docs](https://github.com/norwoodj/helm-docs)
 - [krew](https://krew.sigs.k8s.io/)
 - [flux](https://fluxcd.io/)
+- [kubeconform](https://github.com/yannh/kubeconform)
 
 #### Docker
 
