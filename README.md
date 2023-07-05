@@ -104,6 +104,7 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [grpcurl](https://github.com/fullstorydev/grpcurl)
 - [scaleway-cli](https://github.com/scaleway/scaleway-cli) :purple_heart:
 - [prometheus](https://prometheus.io/)
+- [nomad](https://www.nomadproject.io/)
 
 ## Oh My Zsh
 

@@ -94,6 +94,7 @@ brew "tmux"
 brew "watch"
 brew "scw"
 brew "prometheus"
+brew "nomad"
 
 ## OhMyZsh
 brew "zsh"
