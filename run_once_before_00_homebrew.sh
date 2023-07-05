@@ -95,6 +95,7 @@ brew "watch"
 brew "scw"
 brew "prometheus"
 brew "nomad"
+brew "black"
 
 ## OhMyZsh
 brew "zsh"
