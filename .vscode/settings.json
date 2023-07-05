@@ -26,8 +26,14 @@
     "editor.defaultFormatter": null
   },
   "[yaml]": {
-    "editor.defaultFormatter": null
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[hcl]": {
+    "editor.defaultFormatter": "fredwangwang.vscode-hcl-format"
   },
   "python.formatting.blackArgs": ["--line-length", "100"],
-  "python.formatting.provider": "black"
+  "python.formatting.provider": "black",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "terraform.experimentalFeatures.validateOnSave": true
 }
