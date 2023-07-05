@@ -96,6 +96,7 @@ brew "scw"
 brew "prometheus"
 brew "nomad"
 brew "black"
+brew "ipmitool"
 
 ## OhMyZsh
 brew "zsh"
