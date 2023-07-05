@@ -91,6 +91,7 @@ brew "pylint"
 brew "yamllint"
 brew "tmux"
 brew "watch"
+brew "scw"
 
 ## OhMyZsh
 brew "zsh"

@@ -101,6 +101,7 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [tmux](https://github.com/tmux/tmux/wiki)
 - [watch](https://linux.die.net/man/1/watch)
 - [grpcurl](https://github.com/fullstorydev/grpcurl)
+- [scaleway-cli](https://github.com/scaleway/scaleway-cli) :purple_heart:
 
 ## Oh My Zsh
 
