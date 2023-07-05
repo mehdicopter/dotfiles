@@ -12,6 +12,7 @@ extensions=(
   aykutsarac.jsoncrack-vscode
   GitLab.gitlab-workflow
   redhat.vscode-yaml
+  tuxtina.json2yaml
 )
 
 if ! [ -x "$(command -v code)" ]; then
