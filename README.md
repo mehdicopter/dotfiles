@@ -107,7 +107,7 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [prometheus](https://prometheus.io/)
 - [nomad](https://www.nomadproject.io/)
 - [black](https://black.readthedocs.io/en/stable/)
-- [ipmitool](https://github.com/ipmitool/ipmitool)
+- [ipmitool](https://codeberg.org/IPMITool/ipmitool)
 
 ## Oh My Zsh
 
