@@ -92,6 +92,7 @@ brew "yamllint"
 brew "tmux"
 brew "watch"
 brew "scw"
+brew "prometheus"
 
 ## OhMyZsh
 brew "zsh"
