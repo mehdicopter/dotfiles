@@ -100,6 +100,7 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [yamllint](https://github.com/adrienverge/yamllint)
 - [tmux](https://github.com/tmux/tmux/wiki)
 - [watch](https://linux.die.net/man/1/watch)
+- [grpcurl](https://github.com/fullstorydev/grpcurl)
 
 ## Oh My Zsh
 
