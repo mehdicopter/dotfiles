@@ -1,4 +1,10 @@
 {
+  "[hcl]": {
+    "editor.defaultFormatter": "fredwangwang.vscode-hcl-format"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
   "better-comments.multilineComments": true,
   "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
@@ -9,31 +15,33 @@
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "**/*.yaml": "yaml",
+    "**/.github/**/*.yml": "yaml",
+    "**/*.yml": "ansible"
+  },
   "files.insertFinalNewline": true,
-  "prettier.bracketSpacing": false,
-  "prettier.requireConfig": false,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
   "redhat.telemetry.enabled": false,
   "telemetry.telemetryLevel": "off",
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terraform.experimentalFeatures.validateOnSave": true,
   "vsicons.dontShowNewVersionMessage": true,
+  "yaml.format.bracketSpacing": false,
   "workbench.colorTheme": "Atom One Dark",
   "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "none",
-  "prettier.enable": true,
+  "python.venvFolders": ["~/.virtualenvs"],
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
   "[python]": {
-    "editor.defaultFormatter": null
+    "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "[yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
-  "[hcl]": {
-    "editor.defaultFormatter": "fredwangwang.vscode-hcl-format"
-  },
-  "python.formatting.blackArgs": ["--line-length", "100"],
-  "python.formatting.provider": "black",
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
-  "terraform.experimentalFeatures.validateOnSave": true
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  }
 }
