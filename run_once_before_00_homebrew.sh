@@ -12,7 +12,6 @@ tap "fluxcd/tap"
 cask_args appdir: "~/Applications", require_sha: true
 
 cask "1password", args: { appdir: "/Applications" }
-cask "alfred"
 cask "flux"
 cask "iterm2"
 cask "keepingyouawake"
@@ -21,13 +20,9 @@ cask "whatsapp"
 cask "spotify", args: { require_sha: false }
 cask "vlc"
 cask "transmission"
-cask "rectangle"
-cask "slack"
 cask "visual-studio-code"
 cask "wireshark"
-cask "insomnia"
 cask "protonvpn"
-cask "nagstamon"
 
 ## binaries
 # Terraform
@@ -87,16 +82,12 @@ brew "mdcat"
 brew "vim"
 brew "php"
 brew "virtualenvwrapper"
-brew "vault"
 brew "pylint"
 brew "yamllint"
 brew "tmux"
 brew "watch"
 brew "scw"
-brew "prometheus"
-brew "nomad"
 brew "black"
-brew "ipmitool"
 
 ## OhMyZsh
 brew "zsh"

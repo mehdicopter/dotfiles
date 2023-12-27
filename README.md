@@ -15,7 +15,6 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 ### Casks
 
 - [1password](https://1password.com/) - Password manager
-- [Alfred](https://www.alfredapp.com/) - Productivity tool
 - [f.lux](https://justgetflux.com/) - Adapts the color of the screen
 - [iTerm2](https://iterm2.com/) - Replacement for Terminal
 - [KeepingYouAwake](https://keepingyouawake.app/) - Prevents your Mac from going to sleep
@@ -24,13 +23,9 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [Spotify](https://www.spotify.com/) - Music, Podcasts
 - [VLC](https://www.videolan.org/) - Video player
 - [Transmission](https://transmissionbt.com/) - Bittorrent client
-- [Rectangle](https://rectangleapp.com/) - Resize windows
-- [Slack](https://slack.com/) - Messaging app for business
 - [Visual Studio Code](https://code.visualstudio.com/) - Code Editor
 - [Wireshark](https://www.wireshark.org/) - Network protocol analyzer
-- [Insomnia](https://insomnia.rest/) - API client
 - [ProtonVPN](https://protonvpn.com/) - VPN client
-- [Nagstamon](https://nagstamon.de/) - Status monitor client
 
 ### Binaries
 
@@ -97,17 +92,13 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [vim](https://www.vim.org/)
 - [php](https://www.php.net/)
 - [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/)
-- [Vault](https://vaultproject.io/)
 - [pylint](https://pylint.readthedocs.io/en/latest/)
 - [yamllint](https://github.com/adrienverge/yamllint)
 - [tmux](https://github.com/tmux/tmux/wiki)
 - [watch](https://linux.die.net/man/1/watch)
 - [grpcurl](https://github.com/fullstorydev/grpcurl)
 - [scaleway-cli](https://github.com/scaleway/scaleway-cli) :purple_heart:
-- [prometheus](https://prometheus.io/)
-- [nomad](https://www.nomadproject.io/)
 - [black](https://black.readthedocs.io/en/stable/)
-- [ipmitool](https://codeberg.org/IPMITool/ipmitool)
 
 ## Oh My Zsh
 
@@ -166,11 +157,3 @@ I am using the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 - [HashiCorp HCL](https://marketplace.visualstudio.com/items?itemName=hashicorp.hcl)
 - [HCL Format](https://marketplace.visualstudio.com/items?itemName=fredwangwang.vscode-hcl-format)
 - [HashiCorp Terraform](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)
-
-## Alfred
-
-### Workflows
-
-- [VSCode](https://github.com/alexchantastic/alfred-open-with-vscode-workflow)
-- [GitHub](https://github.com/gharlan/alfred-github-workflow)
-- [GitLab](https://github.com/lukewaite/alfred-gitlab)
