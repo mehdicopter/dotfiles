@@ -39,7 +39,7 @@ if [ -d "$HOME/.local/share/chezmoi/.git" ]; then
 else
   echo ""
   echo "🚀  Initializing dotfiles"
-  chezmoi init --apply https://github.com/mehdicopter/dotfiles.git
+  chezmoi init mehdicopter --ssh --apply
 fi
 
 echo ""
