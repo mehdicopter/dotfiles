@@ -21,12 +21,12 @@ cask "spotify", args: { require_sha: false }
 cask "vlc"
 cask "transmission"
 cask "visual-studio-code"
-cask "wireshark"
-cask "protonvpn"
+cask "google-cloud-sdk"
 
 ## binaries
 # Terraform
 brew "terraform"
+brew "terragrunt"
 brew "tfsec"
 brew "tflint"
 brew "infracost"
@@ -40,6 +40,7 @@ brew "kubectx"
 brew "kubetail"
 brew "popeye"
 brew "helm"
+brew "helmfile"
 brew "helm-docs"
 brew "krew"
 brew "fluxcd/tap/flux", link: true

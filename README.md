@@ -24,14 +24,14 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [VLC](https://www.videolan.org/) - Video player
 - [Transmission](https://transmissionbt.com/) - Bittorrent client
 - [Visual Studio Code](https://code.visualstudio.com/) - Code Editor
-- [Wireshark](https://www.wireshark.org/) - Network protocol analyzer
-- [ProtonVPN](https://protonvpn.com/) - VPN client
+- [Google Cloud](https://cloud.google.com/)
 
 ### Binaries
 
 #### Terraform
 
 - [terraform](https://www.terraform.io/)
+- [terragrunt](https://terragrunt.gruntwork.io/)
 - [tfsec](https://github.com/aquasecurity/tfsec)
 - [tflint](https://github.com/terraform-linters/tflint)
 - [infracost](https://github.com/infracost/infracost)
@@ -46,6 +46,7 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [kubetail](https://github.com/johanhaleby/kubetail)
 - [popeye](https://github.com/derailed/popeye)
 - [helm](https://helm.sh/)
+- [helmfile](https://helmfile.readthedocs.io/en/latest/)
 - [helm-docs](https://github.com/norwoodj/helm-docs)
 - [krew](https://krew.sigs.k8s.io/)
 - [flux](https://fluxcd.io/)
