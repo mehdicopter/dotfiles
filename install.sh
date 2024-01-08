@@ -35,7 +35,7 @@ command -v chezmoi >/dev/null 2>&1 || \
 if [ -d "$HOME/.local/share/chezmoi/.git" ]; then
   echo ""
   echo "🚸  chezmoi already initialized"
-  echo "    Reinitialize with: 'chezmoi init https://github.com/mehdicopter/dotfiles.git'"
+  echo "    Reinitialize with: 'chezmoi mehdicopter --ssh --apply'"
 else
   echo ""
   echo "🚀  Initializing dotfiles"
