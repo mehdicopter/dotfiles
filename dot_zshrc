@@ -84,34 +84,31 @@ plugins=(
   web-search
 )
 
-source $ZSH/oh-my-zsh.sh
+source "$ZSH/oh-my-zsh.sh"
 
 # User configuration
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 export EDITOR="vim"
-export OBJC_DISABLE_INITIALIZE_FORK_SAFETY="YES"
-export REQUESTS_CA_BUNDLE="/usr/local/etc/ca-certificates/cert.pem"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
+# Aliases
 alias vi="vim"
 alias python="python3"
 alias pip="pip3"
 
-source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme
-source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source "$(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme"
+source "$(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+source "$(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
+
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
   autoload -Uz compinit
   compinit
 fi
 
-source $(brew --prefix)/bin/virtualenvwrapper.sh
+source "$(brew --prefix)/bin/virtualenvwrapper.sh"
+source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
+source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
 
 export PATH="$HOME/.krew/bin:/usr/local/opt/gnu-sed/libexec/gnubin/:/usr/local/opt/gnu-tar/libexec/gnubin:/usr/local/sbin:$PATH"
 
