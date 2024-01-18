@@ -45,11 +45,10 @@ darwin:
     - whatsapp
 relevanc:
   brews:
-    - bruno
     - colima
     - docker-buildx
     - docker-compose
-    - docker"
+    - docker
     - glab
     - hadolint
     - helm
@@ -62,6 +61,7 @@ relevanc:
     - terragrunt
     - testssl
   casks:
+    - bruno
     - google-chat
     - google-cloud-sdk
     - google-drive
