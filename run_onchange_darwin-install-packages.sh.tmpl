@@ -1,0 +1,22 @@
+{{- $company := .company -}}
+{{ if eq .chezmoi.os "darwin" -}}
+#!/bin/bash
+
+brew bundle --no-lock --file=/dev/stdin <<EOF
+{{ range .darwin.brews -}}
+brew {{ . | quote }}
+{{ end -}}
+{{ range .darwin.casks -}}
+cask {{ . | quote }}
+{{ end -}}
+{{ with index . $company -}}
+## {{ $company }}
+{{ range .brews -}}
+brew {{ . | quote }}
+{{ end -}}
+{{ range .casks -}}
+cask {{ . | quote }}
+{{ end -}}
+{{ end -}}
+EOF
+{{ end -}}

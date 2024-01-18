@@ -7,7 +7,7 @@ This repository exists to manage my dotfiles and bootstrap my workstation.
 On a brand new machine launch this script :
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.sh | bash
+sh -c "$(curl -fsLS get.chezmoi.io)" -- init --ssh --apply mehdicopter
 ```
 
 ## Packages
@@ -24,7 +24,7 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [VLC](https://www.videolan.org/) - Video player
 - [Transmission](https://transmissionbt.com/) - Bittorrent client
 - [Visual Studio Code](https://code.visualstudio.com/) - Code Editor
-- [Google Cloud](https://cloud.google.com/)
+- [Raycast](https://raycast.com/)
 
 ### Binaries
 
@@ -32,25 +32,16 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 
 - [terraform](https://www.terraform.io/)
 - [terragrunt](https://terragrunt.gruntwork.io/)
-- [tfsec](https://github.com/aquasecurity/tfsec)
-- [tflint](https://github.com/terraform-linters/tflint)
-- [infracost](https://github.com/infracost/infracost)
-- [driftctl](https://driftctl.com/)
 - [terraform-docs](https://terraform-docs.io/)
 
 #### Kubernetes
 
 - [kubectl](https://kubernetes.io/docs/reference/kubectl/)
-- [k9s](https://k9scli.io/)
 - [kubectx](https://github.com/ahmetb/kubectx) + `kubens`
 - [kubetail](https://github.com/johanhaleby/kubetail)
-- [popeye](https://github.com/derailed/popeye)
 - [helm](https://helm.sh/)
 - [helmfile](https://helmfile.readthedocs.io/en/latest/)
 - [helm-docs](https://github.com/norwoodj/helm-docs)
-- [krew](https://krew.sigs.k8s.io/)
-- [flux](https://fluxcd.io/)
-- [kubeconform](https://github.com/yannh/kubeconform)
 
 #### Docker
 
@@ -76,30 +67,19 @@ curl -fsSL https://raw.githubusercontent.com/mehdicopter/dotfiles/main/install.s
 - [pinentry-mac](https://www.gnupg.org/related_software/pinentry/index.html)
 - [hopenpgp-tools](https://hackage.haskell.org/package/hopenpgp-tools)
 - [fzf](https://github.com/junegunn/fzf)
-- [pwgen](https://pwgen.io/)
-- [thefuck](https://github.com/nvbn/thefuck)
 - [shellcheck](https://www.shellcheck.net/)
 - [tree](https://linux.die.net/man/1/tree)
 - [coreutils](https://www.gnu.org/software/coreutils/)
 - [htop](https://htop.dev/)
 - [fping](https://fping.org/)
 - [nmap](https://nmap.org/)
-- [testssl](https://testssl.sh/)
 - [jq](https://stedolan.github.io/jq/)
 - [fx](https://github.com/antonmedv/fx)
 - [yq](https://github.com/mikefarah/yq)
 - [bat](https://github.com/sharkdp/bat)
-- [mdcat](https://github.com/swsnr/mdcat)
 - [vim](https://www.vim.org/)
-- [php](https://www.php.net/)
 - [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/)
-- [pylint](https://pylint.readthedocs.io/en/latest/)
 - [yamllint](https://github.com/adrienverge/yamllint)
-- [tmux](https://github.com/tmux/tmux/wiki)
-- [watch](https://linux.die.net/man/1/watch)
-- [grpcurl](https://github.com/fullstorydev/grpcurl)
-- [scaleway-cli](https://github.com/scaleway/scaleway-cli) :purple_heart:
-- [black](https://black.readthedocs.io/en/stable/)
 
 ## Oh My Zsh
 
@@ -125,9 +105,7 @@ I am using the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 - [docker](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker)
 - [encode64](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/encode64)
 - [extract](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/extract)
-- [fluxcd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fluxcd)
 - [fzf](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fzf)
-- [genpass](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/genpass)
 - [gh](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gh)
 - [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git)
 - [gpg-agent](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gpg-agent)
@@ -135,7 +113,6 @@ I am using the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 - [kubectl](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectl)
 - [macos](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/macos)
 - [terraform](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/terraform)
-- [thefuck](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/thefuck)
 - [vscode](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vscode)
 - [web-search](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search)
 
@@ -145,16 +122,13 @@ I am using the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 
 - [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)
 - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
-- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Markdown Emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 - [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)
 - [JSON Crack](https://marketplace.visualstudio.com/items?itemName=aykutsarac.jsoncrack-vscode)
 - [Gitlab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
-- [json2yaml](https://marketplace.visualstudio.com/items?itemName=tuxtina.json2yaml)
 - [HashiCorp HCL](https://marketplace.visualstudio.com/items?itemName=hashicorp.hcl)
 - [HCL Format](https://marketplace.visualstudio.com/items?itemName=fredwangwang.vscode-hcl-format)
 - [HashiCorp Terraform](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)

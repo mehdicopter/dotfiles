@@ -69,9 +69,7 @@ plugins=(
   docker
   encode64
   extract
-  fluxcd
   fzf
-  genpass
   gh
   git
   gpg-agent
@@ -79,7 +77,6 @@ plugins=(
   kubectl
   macos
   terraform
-  thefuck
   vscode
   web-search
 )
@@ -90,8 +87,10 @@ source "$ZSH/oh-my-zsh.sh"
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 export EDITOR="vim"
+export USE_GKE_GCLOUD_AUTH_PLUGIN="True"
 
 # Aliases
+alias cat="bat"
 alias vi="vim"
 alias python="python3"
 alias pip="pip3"
@@ -110,7 +109,9 @@ source "$(brew --prefix)/bin/virtualenvwrapper.sh"
 source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
 source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
 
-export PATH="$HOME/.krew/bin:/usr/local/opt/gnu-sed/libexec/gnubin/:/usr/local/opt/gnu-tar/libexec/gnubin:/usr/local/sbin:$PATH"
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin/:/usr/local/opt/gnu-tar/libexec/gnubin:/usr/local/sbin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

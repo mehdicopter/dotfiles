@@ -19,5 +19,5 @@
   fixup = "!git log -n 50 --pretty=format:'%h %s' --no-merges | fzf | cut -c -7 | xargs -o git commit --fixup"
 [init]
   defaultBranch = main
-[includeIf "hasconfig:remote.*.url:git@gitlab.infra.online.net:*/**"]
-  path = ~/.gitconfig-scaleway
+[includeIf "hasconfig:remote.*.url:git@git@gitlab.com:relevanc/**"]
+  path = ~/.gitconfig-gitlab

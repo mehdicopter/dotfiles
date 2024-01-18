@@ -1,0 +1,67 @@
+darwin:
+  brews:
+    - bash
+    - bat
+    - chezmoi
+    - coreutils
+    - dnscrypt-proxy
+    - dnsmasq
+    - fping
+    - fx
+    - fzf
+    - gh
+    - git
+    - gnu-sed
+    - gnupg
+    - gpgme
+    - hopenpgp-tools
+    - htop
+    - jq
+    - nmap
+    - pinentry-mac
+    - powerlevel10k
+    - tree
+    - vim
+    - virtualenvwrapper
+    - yamllint
+    - ykman
+    - yq
+    - zsh
+    - zsh-autosuggestions
+    - zsh-completions
+    - zsh-history-substring-search
+    - zsh-syntax-highlighting
+  casks:
+    - 1password
+    - flux
+    - google-chrome
+    - keepingyouawake
+    - raycast
+    - signal
+    - spotify
+    - transmission
+    - visual-studio-code
+    - vlc
+    - whatsapp
+relevanc:
+  brews:
+    - bruno
+    - colima
+    - docker-buildx
+    - docker-compose
+    - docker"
+    - glab
+    - hadolint
+    - helm
+    - helm-docs
+    - helmfile
+    - kubectl
+    - shellcheck
+    - terraform
+    - terraform-docs
+    - terragrunt
+    - testssl
+  casks:
+    - google-chat
+    - google-cloud-sdk
+    - google-drive
