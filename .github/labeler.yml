@@ -1,5 +1,9 @@
 homebrew:
-  - "run_once_*.sh"
+  - changed-files:
+      - any-glob-to-any-file:
+          - run_*.sh
 
 settings:
-  - ".github/**/*"
+  - changed-files:
+      - any-glob-to-any-file:
+          - .github/**/*
