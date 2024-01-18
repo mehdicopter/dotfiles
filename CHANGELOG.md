@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.9.0](https://github.com/mehdicopter/dotfiles/compare/v1.8.0...v1.9.0) (2024-01-18)
+
+
+### Features
+
+* add gcloud, helmfile and terragrunt ([3db162a](https://github.com/mehdicopter/dotfiles/commit/3db162ab249fb97a9ff42fa729e119670de435e0))
+* **gpg:** update GPG key ([e54c6db](https://github.com/mehdicopter/dotfiles/commit/e54c6db5b1497c7b1c489abbd303c55d3674ef3a))
+* remove unused apps ([6e544c1](https://github.com/mehdicopter/dotfiles/commit/6e544c14e84849a7a6931a755a98314aaf5c5e84))
+* use ssh instead of https ([78ffbeb](https://github.com/mehdicopter/dotfiles/commit/78ffbeb88ff8e8a701ff48d1bc63872b1bf283a8))
+* **vscode:** add sql format ([5c466a2](https://github.com/mehdicopter/dotfiles/commit/5c466a23f994153f2e1ebdd996dfd65d8d9c017d))
+* **vscode:** remove file associations ([97e9102](https://github.com/mehdicopter/dotfiles/commit/97e91029b216bad54dbe35eb9a00fa7f329ad2b5))
+
+
+### Bug Fixes
+
+* add gcloud and fix path for powerlevel10k ([2390e93](https://github.com/mehdicopter/dotfiles/commit/2390e93813a01b93c3f7654178bf4a0753309d2b))
+* change message to init with ssh ([09b0244](https://github.com/mehdicopter/dotfiles/commit/09b0244666d0a2c6333c8d58968684cd0c90fd58))
+* path for pinentry ([99e1396](https://github.com/mehdicopter/dotfiles/commit/99e1396243edcbc53f139103041099825cdaae3d))
+
 ## [1.8.0](https://github.com/mehdicopter/dotfiles/compare/v1.7.0...v1.8.0) (2023-07-05)
 
 
