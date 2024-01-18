@@ -7,7 +7,7 @@ This repository exists to manage my dotfiles and bootstrap my workstation.
 On a brand new machine launch this script :
 
 ```sh
-sh -c "$(curl -fsLS get.chezmoi.io)" -- init --ssh --apply mehdicopter
+sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply mehdicopter
 ```
 
 ## Packages

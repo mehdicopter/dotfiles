@@ -17,3 +17,5 @@ if [ ! -f "$HOME/Downloads/material-design-colors.itermcolors" ]; then
   echo $'iTerm2 > Preferences > Profiles > Colors Tab > Color Presets > Import\n'
   echo "You can now select it within the Color Presets menu"
 fi
+
+export PATH="/opt/homebrew/bin:$PATH"
