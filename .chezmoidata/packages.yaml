@@ -18,6 +18,7 @@ darwin:
     - htop
     - jq
     - nmap
+    - php
     - pinentry-mac
     - powerlevel10k
     - tree
@@ -33,6 +34,7 @@ darwin:
     - zsh-syntax-highlighting
   casks:
     - 1password
+    - 1password-cli
     - alfred
     - flux
     - google-chrome
@@ -64,6 +66,5 @@ relevanc:
     - testssl
   casks:
     - bruno
-    - google-chat
     - google-cloud-sdk
     - google-drive
