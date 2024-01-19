@@ -33,11 +33,11 @@ darwin:
     - zsh-syntax-highlighting
   casks:
     - 1password
+    - alfred
     - flux
     - google-chrome
     - iterm2
     - keepingyouawake
-    - raycast
     - rectangle
     - signal
     - spotify
