@@ -2,7 +2,7 @@
 {{ if eq .chezmoi.os "darwin" -}}
 #!/bin/bash
 
-brew bundle --no-lock --file=/dev/stdin <<EOF
+/opt/homebrew/bin/brew bundle --no-lock --file=/dev/stdin <<EOF
 {{ range .darwin.brews -}}
 brew {{ . | quote }}
 {{ end -}}
