@@ -52,7 +52,7 @@ relevanc:
     - glab
     - hadolint
     - helm
-    - helm-docs
+    - norwoodj/tap/helm-docs
     - helmfile
     - kubectl
     - shellcheck
