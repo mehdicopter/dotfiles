@@ -35,6 +35,7 @@ darwin:
     - 1password
     - flux
     - google-chrome
+    - iterm2
     - keepingyouawake
     - raycast
     - signal
