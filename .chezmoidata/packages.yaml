@@ -38,6 +38,7 @@ darwin:
     - iterm2
     - keepingyouawake
     - raycast
+    - rectangle
     - signal
     - spotify
     - transmission
