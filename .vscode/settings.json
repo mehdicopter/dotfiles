@@ -23,6 +23,7 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "hclformat.hclfmt_path": "/opt/homebrew/bin/hclfmt",
   "http.proxyStrictSSL": false,
   "python.venvFolders": [
     "~/.virtualenvs"
@@ -33,6 +34,9 @@
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terraform.experimentalFeatures.validateOnSave": true,
+  "vs-kubernetes": {
+    "vs-kubernetes.crd-code-completion": "disabled"
+  },
   "workbench.colorTheme": "Atom One Dark",
   "workbench.iconTheme": "vs-seti",
   "workbench.startupEditor": "none",
