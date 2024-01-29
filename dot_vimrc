@@ -1,0 +1,33 @@
+" Enable syntax highlighting
+syntax enable
+
+" Set utf8 as standard encoding and en_US as the standard language
+set encoding=utf8
+
+" Use Unix as the standard file type
+set ffs=unix,dos,mac
+
+" Configure backspace so it acts as it should act
+set backspace=eol,start,indent
+
+" Use spaces instead of tabs
+set expandtab
+
+" Be smart when using tabkey
+set smarttab
+
+" 1 tab == 4 spaces
+set shiftwidth=4
+set tabstop=4
+
+" Enable filetype plugins
+filetype plugin on
+filetype indent on
+
+" Show matching brackets when text indicator is over them
+set showmatch
+
+" Turn backup off
+set nobackup
+set nowb
+set noswapfile
