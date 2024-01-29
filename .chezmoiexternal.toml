@@ -1,0 +1,19 @@
+[".local/alfred/gitlab.alfredworkflow"]
+type = "file"
+url = "https://github.com/lukewaite/alfred-gitlab/releases/download/v3.0.1/GitLab.alfredworkflow"
+
+[".local/alfred/jira.alfredworkflow"]
+type = "file"
+url = "https://github.com/titouanmathis/alfred-jira-search/releases/download/2.3.3/alfred-jira-search.alfredworkflow"
+
+[".local/alfred/github.alfredworkflow"]
+type = "file"
+url = "https://github.com/gharlan/alfred-github-workflow/releases/download/v1.8.1/github.alfredworkflow"
+
+[".local/alfred/confluence.alfredworkflow"]
+type = "file"
+url = "https://github.com/skleinei/alfred-confluence/releases/download/2.0.1/confluence-quicksearch.alfredworkflow"
+
+[".local/alfred/http-status-code.alfredworkflow"]
+type = "file"
+url = "https://github.com/UpSync-Dev/alfred-http-status-codes/releases/download/1.0/HTTP.Status.Codes.alfredworkflow"

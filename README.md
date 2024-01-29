@@ -132,3 +132,13 @@ I am using the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 - [HashiCorp HCL](https://marketplace.visualstudio.com/items?itemName=hashicorp.hcl)
 - [HCL Format](https://marketplace.visualstudio.com/items?itemName=fredwangwang.vscode-hcl-format)
 - [HashiCorp Terraform](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)
+
+## Alfred
+
+### Workflows
+
+- [Gitlab](https://github.com/lukewaite/alfred-gitlab)
+- [GitHub](https://github.com/gharlan/alfred-github-workflow)
+- [Jira](https://github.com/titouanmathis/alfred-jira-search)
+- [Confluence](https://github.com/skleinei/alfred-confluence)
+- [HTTP Status Code](https://github.com/UpSync-Dev/alfred-http-status-codes)
