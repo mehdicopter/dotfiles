@@ -49,21 +49,27 @@ darwin:
     - whatsapp
 relevanc:
   brews:
+    - berglas
     - colima
     - docker-buildx
     - docker-compose
     - docker
     - glab
+    - golang
     - hadolint
     - helm
     - norwoodj/tap/helm-docs
     - helmfile
     - kubectl
+    - kubectx
+    - pre-commit
     - shellcheck
-    - terraform
+    - sops
+    - hashicorp/tap/terraform
     - terraform-docs
     - terragrunt
     - testssl
+    - tflint
   casks:
     - bruno
     - google-cloud-sdk
