@@ -76,6 +76,7 @@ plugins=(
   helm
   kubectl
   macos
+  nvm
   terraform
   vscode
   web-search
@@ -109,9 +110,16 @@ source "$(brew --prefix)/bin/virtualenvwrapper.sh"
 source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
 source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
 
-export PATH="/usr/local/opt/gnu-sed/libexec/gnubin/:/usr/local/opt/gnu-tar/libexec/gnubin:/usr/local/sbin:$PATH"
+gch() {
+ git checkout "$(git branch --all | fzf| tr -d '[:space:]')"
+}
+
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin/:/usr/local/opt/gnu-tar/libexec/gnubin:/usr/local/sbin:/opt/homebrew/opt/findutils/libexec/gnubin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /opt/homebrew/bin/terragrunt terragrunt
