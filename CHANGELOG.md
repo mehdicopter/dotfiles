@@ -1,5 +1,36 @@
 # Changelog
 
+## [2.0.0](https://github.com/mehdicopter/dotfiles/compare/v1.9.0...v2.0.0) (2024-12-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* use chezmoi template and run_onchange
+
+### Features
+
+* add alfred ([5313fe7](https://github.com/mehdicopter/dotfiles/commit/5313fe721750658cb91f3c348daa84d3bc2e477c))
+* add alfred workflows ([aee1019](https://github.com/mehdicopter/dotfiles/commit/aee1019dfc2580adb2d4e6eb885c608d7b50066d))
+* add digrc ([b8f2ce4](https://github.com/mehdicopter/dotfiles/commit/b8f2ce4eb3ef6d22539711857be582152664df52))
+* add gitlab git config ([74f9bf1](https://github.com/mehdicopter/dotfiles/commit/74f9bf153229b0a971498e884bf01652c30de29d))
+* add iterm2 ([8ae39af](https://github.com/mehdicopter/dotfiles/commit/8ae39af802ef2c31dc03de5928e8cb0ae75929e9))
+* add p10k config ([eff17e3](https://github.com/mehdicopter/dotfiles/commit/eff17e34b8d26dc670940018c0a1849d19faa979))
+* add rectangle ([3f9adc4](https://github.com/mehdicopter/dotfiles/commit/3f9adc4795b581f66e9b9c0171e2c3f36ac8b571))
+* add vimrc ([63003f2](https://github.com/mehdicopter/dotfiles/commit/63003f2051f246ffc3fd31c414a744fdab6f147b))
+* remove google-chat ([124753c](https://github.com/mehdicopter/dotfiles/commit/124753c0ededc2b38379991e7fc0db5d7bb6292f))
+* remove scw git config ([7c319e4](https://github.com/mehdicopter/dotfiles/commit/7c319e4130b3bc0044a241d992b610d6ed904a2f))
+* use chezmoi template and run_onchange ([75e6b52](https://github.com/mehdicopter/dotfiles/commit/75e6b521f2d119a8ea723f86c3cbd0a6cdf04657))
+* **vscode:** disable crd ([1fc2224](https://github.com/mehdicopter/dotfiles/commit/1fc2224c2bd790aa9dc0578832887b118e6d6292))
+
+
+### Bug Fixes
+
+* cask bruno ([f81336a](https://github.com/mehdicopter/dotfiles/commit/f81336a85934b5f99f8673b07d7943ac4473ae9b))
+* export homebrew path ([ad24c85](https://github.com/mehdicopter/dotfiles/commit/ad24c853bcdf5fcf209b73955c7c973d553a8fb6))
+* gitlab ref ([4d81363](https://github.com/mehdicopter/dotfiles/commit/4d813638f0512bf925958219e548e646d09b74a4))
+* helm-docs ([106fa39](https://github.com/mehdicopter/dotfiles/commit/106fa395db4cb030f55d14105aefe45367dab729))
+* set absolute path ([ad11069](https://github.com/mehdicopter/dotfiles/commit/ad11069131e3df0addafa48b75fd6395ef92164d))
+
 ## [1.9.0](https://github.com/mehdicopter/dotfiles/compare/v1.8.0...v1.9.0) (2024-01-18)
 
 
