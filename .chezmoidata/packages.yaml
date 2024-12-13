@@ -72,6 +72,6 @@ relevanc:
     - testssl
     - tflint
   casks:
-    - bruno
     - google-cloud-sdk
     - google-drive
+    - insomnia
