@@ -18,7 +18,9 @@
   "editor.tabSize": 2,
   "extensions.ignoreRecommendations": true,
   "files.associations": {
-    "**/*.tmpl": "go-template"
+    "**/*.tmpl": "go-template",
+    "**/helmfile.yaml": "go-template",
+    "*.gotmpl": "go-template"
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -43,5 +45,12 @@
   "yaml.customTags": [
     "!reference sequence",
   ],
-  "yaml.format.bracketSpacing": true
+  "yaml.format.bracketSpacing": true,
+  "yaml.format.singleQuote": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.openRepositoryInParentFolders": "never",
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "prettier.singleQuote": false
 }
