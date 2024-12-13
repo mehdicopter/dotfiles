@@ -4,8 +4,6 @@ darwin:
     - bat
     - chezmoi
     - coreutils
-    - dnscrypt-proxy
-    - dnsmasq
     - fping
     - fx
     - fzf
@@ -21,9 +19,11 @@ darwin:
     - php
     - pinentry-mac
     - powerlevel10k
+    - qrencode
     - tree
     - vim
     - virtualenvwrapper
+    - watch
     - yamllint
     - ykman
     - yq
@@ -51,6 +51,7 @@ relevanc:
   brews:
     - berglas
     - colima
+    - derailed/popeye/popeye
     - docker-buildx
     - docker-compose
     - docker
