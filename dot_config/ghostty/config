@@ -1,6 +1,11 @@
 # Ghostty — https://ghostty.org/docs/config
 font-family = MesloLGS Nerd Font
 font-size = 13
+# Match iTerm2's heavier glyph rendering and roomier line spacing
+font-thicken = true
+adjust-cell-height = 10%
+window-padding-x = 8
+window-padding-y = 6
 
 # Palette carried over from the old iTerm2 "Default" profile
 background = #1d262a
