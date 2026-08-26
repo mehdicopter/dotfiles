@@ -106,9 +106,10 @@ if type brew &>/dev/null; then
   compinit
 fi
 
-source "$(brew --prefix)/bin/virtualenvwrapper.sh"
-source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
-source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
+if [[ -f "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc" ]]; then
+  source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
+  source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
+fi
 
 gch() {
  git checkout "$(git branch --all | fzf| tr -d '[:space:]')"
@@ -122,4 +123,6 @@ export PATH="/usr/local/opt/gnu-sed/libexec/gnubin/:/usr/local/opt/gnu-tar/libex
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C /opt/homebrew/bin/terragrunt terragrunt
+if command -v terragrunt &>/dev/null; then
+  complete -o nospace -C "$(command -v terragrunt)" terragrunt
+fi
