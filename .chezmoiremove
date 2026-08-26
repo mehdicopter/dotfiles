@@ -1,2 +1,3 @@
 .local/alfred
 .p10k.zsh
+.iterm2_shell_integration.zsh

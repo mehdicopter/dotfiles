@@ -119,8 +119,6 @@ gch() {
 # Prompt — config in ~/.config/starship.toml
 eval "$(starship init zsh)"
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
 autoload -U +X bashcompinit && bashcompinit
 if command -v terragrunt &>/dev/null; then
   complete -o nospace -C "$(command -v terragrunt)" terragrunt
