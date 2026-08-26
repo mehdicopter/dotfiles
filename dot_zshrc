@@ -104,7 +104,6 @@ alias cat="bat"
 alias vi="vim"
 alias python="python3"
 alias pip="pip3"
-alias nsdiag="/Library/Application\ Support/Netskope/STAgent/nsdiag"
 
 source "$(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme"
 source "$(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
