@@ -39,7 +39,6 @@ darwin:
   casks:
     - 1password
     - claude-code
-    - firefox
     - flux-app
     - ghostty
     - google-chrome

@@ -27,7 +27,6 @@ Two prompts customize the machine:
 - [Visual Studio Code](https://code.visualstudio.com/) - Code Editor
 - [Raycast](https://raycast.com/)
 - [Claude Code](https://claude.com/claude-code) - AI coding agent
-- [Firefox](https://www.firefox.com/)
 - [Slack](https://slack.com/)
 
 #### Personal apps (installed if `personal` is true)
