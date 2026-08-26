@@ -1,0 +1,33 @@
+# Starship prompt — https://starship.rs/config/
+add_newline = true
+
+[directory]
+truncation_length = 4
+truncate_to_repo = true
+
+[gcloud]
+# Active GCP project — shown whenever a gcloud config exists
+format = 'on [$symbol$project]($style) '
+symbol = '☁️  '
+style = 'bold blue'
+
+[kubernetes]
+# Context + namespace, only in kubernetes-flavoured directories
+disabled = false
+format = 'on [⎈ $context( \($namespace\))]($style) '
+style = 'bold cyan'
+detect_files = ['helmfile.yaml', 'Chart.yaml', 'kustomization.yaml', 'skaffold.yaml']
+detect_extensions = []
+detect_folders = ['helm', 'charts', 'manifests', 'k8s']
+
+[terraform]
+# Workspace only — version lookups slow the prompt down
+format = 'via [💠 $workspace]($style) '
+
+[git_status]
+ahead = '⇡${count}'
+behind = '⇣${count}'
+diverged = '⇕⇡${ahead_count}⇣${behind_count}'
+
+[cmd_duration]
+min_time = 2000

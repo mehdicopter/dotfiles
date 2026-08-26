@@ -88,7 +88,7 @@ Two prompts customize the machine:
 
 I do have [OhMyZsh](https://github.com/ohmyzsh/ohmyzsh) in order to pimp my terminal and improve my productivity.
 
-I am using the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
+The prompt is [Starship](https://starship.rs/) (config in `~/.config/starship.toml`), rendered in [Ghostty](https://ghostty.org/) (config in `~/.config/ghostty/config`) with MesloLGS Nerd Font.
 
 ### Customization
 
