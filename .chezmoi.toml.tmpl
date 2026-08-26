@@ -1,0 +1,6 @@
+{{- $company := promptStringOnce . "company" "company" -}}
+{{- $personal := promptBoolOnce . "personal" "personal" -}}
+
+[data]
+  company = {{ $company | quote }}
+  personal = {{ $personal }}

@@ -21,8 +21,8 @@ darwin:
     - powerlevel10k
     - qrencode
     - tree
+    - uv
     - vim
-    - virtualenvwrapper
     - watch
     - yamllint
     - ykman
@@ -35,43 +35,27 @@ darwin:
   casks:
     - 1password
     - 1password-cli
-    - alfred
     - flux
+    - ghostty
     - google-chrome
-    - iterm2
     - keepingyouawake
+    - raycast
     - rectangle
+    - visual-studio-code
+personal_apps:
+  casks:
     - signal
     - spotify
     - transmission
-    - visual-studio-code
     - vlc
     - whatsapp
-relevanc:
+servier:
   brews:
-    - berglas
-    - colima
-    - derailed/popeye/popeye
-    - docker-buildx
-    - docker-compose
-    - docker
     - glab
-    - golang
-    - hadolint
     - helm
-    - norwoodj/tap/helm-docs
-    - helmfile
     - kubectl
     - kubectx
     - pre-commit
     - shellcheck
-    - sops
-    - hashicorp/tap/terraform
-    - terraform-docs
-    - terragrunt
-    - testssl
-    - tflint
   casks:
-    - google-cloud-sdk
-    - google-drive
-    - insomnia
+    - gcloud-cli
