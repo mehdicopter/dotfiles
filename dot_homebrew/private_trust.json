@@ -1,0 +1,10 @@
+{
+  "trustedformulae": [
+    "hashicorp/tap/terraform"
+  ],
+  "trustedtaps": [
+    "derailed/popeye",
+    "hashicorp/tap",
+    "norwoodj/tap"
+  ]
+}
