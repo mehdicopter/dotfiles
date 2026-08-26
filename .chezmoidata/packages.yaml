@@ -36,7 +36,6 @@ darwin:
     - zsh-syntax-highlighting
   casks:
     - 1password
-    - 1password-cli
     - flux-app
     - ghostty
     - google-chrome
@@ -73,7 +72,6 @@ relevanc:
     - hashicorp/tap/terraform
     - terraform-docs
     - terragrunt
-    - testssl
   casks:
     - gcloud-cli
     - google-drive
