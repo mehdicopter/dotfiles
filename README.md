@@ -10,46 +10,42 @@ On a brand new machine launch this script :
 sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply mehdicopter
 ```
 
+Two prompts customize the machine:
+
+- `company`: installs the company-specific packages section from
+  `.chezmoidata/packages.yaml` (leave empty on a personal machine)
+- `personal`: installs personal apps (messaging, media...)
+
 ## Packages
 
 ### Casks
 
 - [1password](https://1password.com/) - Password manager
 - [f.lux](https://justgetflux.com/) - Adapts the color of the screen
-- [iTerm2](https://iterm2.com/) - Replacement for Terminal
+- [Ghostty](https://ghostty.org/) - Replacement for Terminal
 - [KeepingYouAwake](https://keepingyouawake.app/) - Prevents your Mac from going to sleep
+- [Visual Studio Code](https://code.visualstudio.com/) - Code Editor
+- [Raycast](https://raycast.com/)
+
+#### Personal apps (installed if `personal` is true)
+
 - [Signal](https://signal.org/) - Messaging app
 - [WhatsApp](https://www.whatsapp.com/) - Messaging app
 - [Spotify](https://www.spotify.com/) - Music, Podcasts
 - [VLC](https://www.videolan.org/) - Video player
 - [Transmission](https://transmissionbt.com/) - Bittorrent client
-- [Visual Studio Code](https://code.visualstudio.com/) - Code Editor
-- [Raycast](https://raycast.com/)
 
 ### Binaries
 
-#### Terraform
+#### Company-specific (installed if `company` matches a section)
 
-- [terraform](https://www.terraform.io/)
-- [terragrunt](https://terragrunt.gruntwork.io/)
-- [terraform-docs](https://terraform-docs.io/)
-
-#### Kubernetes
-
+- [gcloud](https://cloud.google.com/cli/)
+- [glab](https://gitlab.com/gitlab-org/cli)
 - [kubectl](https://kubernetes.io/docs/reference/kubectl/)
 - [kubectx](https://github.com/ahmetb/kubectx) + `kubens`
-- [kubetail](https://github.com/johanhaleby/kubetail)
 - [helm](https://helm.sh/)
-- [helmfile](https://helmfile.readthedocs.io/en/latest/)
-- [helm-docs](https://github.com/norwoodj/helm-docs)
-
-#### Docker
-
-- [docker](https://github.com/docker/cli)
-- [docker-buildx](https://github.com/docker/buildx)
-- [docker-compose](https://github.com/docker/compose)
-- [colima](https://github.com/abiosoft/colima)
-- [hadolint](https://github.com/hadolint/hadolint)
+- [pre-commit](https://pre-commit.com/)
+- [shellcheck](https://www.shellcheck.net/)
 
 #### System
 
@@ -77,8 +73,8 @@ sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply mehdicopter
 - [fx](https://github.com/antonmedv/fx)
 - [yq](https://github.com/mikefarah/yq)
 - [bat](https://github.com/sharkdp/bat)
+- [uv](https://docs.astral.sh/uv/)
 - [vim](https://www.vim.org/)
-- [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/)
 - [yamllint](https://github.com/adrienverge/yamllint)
 
 ## Oh My Zsh
@@ -132,13 +128,3 @@ I am using the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 - [HashiCorp HCL](https://marketplace.visualstudio.com/items?itemName=hashicorp.hcl)
 - [HCL Format](https://marketplace.visualstudio.com/items?itemName=fredwangwang.vscode-hcl-format)
 - [HashiCorp Terraform](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)
-
-## Alfred
-
-### Workflows
-
-- [Gitlab](https://github.com/lukewaite/alfred-gitlab)
-- [GitHub](https://github.com/gharlan/alfred-github-workflow)
-- [Jira](https://github.com/titouanmathis/alfred-jira-search)
-- [Confluence](https://github.com/skleinei/alfred-confluence)
-- [HTTP Status Code](https://github.com/UpSync-Dev/alfred-http-status-codes)
