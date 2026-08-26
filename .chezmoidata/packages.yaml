@@ -20,9 +20,9 @@ darwin:
     - nmap
     - php
     - pinentry-mac
-    - powerlevel10k
     - qrencode
     - ruff
+    - starship
     - tig
     - tree
     - uv
@@ -40,6 +40,7 @@ darwin:
     - 1password
     - claude-code
     - flux-app
+    - font-meslo-lg-nerd-font
     - ghostty
     - google-chrome
     - keepingyouawake
