@@ -1,3 +1,7 @@
 [user]
   username = mehdi.mahfoudi
-  email = mehdi.mahfoudi@servier.com
+{{- if .company }}
+  email = mehdi.mahfoudi@{{ .company }}.com
+{{- else }}
+  email = contact@mahfoudi.me
+{{- end }}
