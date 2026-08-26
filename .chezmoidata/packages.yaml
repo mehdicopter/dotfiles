@@ -9,6 +9,8 @@ darwin:
     - fzf
     - gh
     - git
+    - git-absorb
+    - git-delta
     - gnu-sed
     - gnupg
     - gpgme

@@ -51,6 +51,8 @@ Two prompts customize the machine:
 
 - [chezmoi](https://www.chezmoi.io/)
 - [git](https://git-scm.com/)
+- [git-absorb](https://github.com/tummychow/git-absorb)
+- [git-delta](https://dandavison.github.io/delta/)
 - [tig](https://jonas.github.io/tig/)
 - [gh](https://github.com/cli/cli)
 - [glab](https://gitlab.com/gitlab-org/cli)

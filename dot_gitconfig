@@ -5,6 +5,9 @@
   signingkey = 0xBD294252A04ADE1C!
 [commit]
   gpgsign = true
+  verbose = true
+[tag]
+  gpgSign = true
 [column]
   ui = auto
 [branch]
@@ -19,10 +22,28 @@
   default = upstream
   followTags = true
   autoSetupRemote = true
+  useForceIfIncludes = true
+[fetch]
+  prune = true
 [diff]
   mnemonicprefix = true
+  algorithm = histogram
+  colorMoved = default
+[merge]
+  conflictStyle = zdiff3
 [rebase]
   autoSquash = true
+  autoStash = true
+[rerere]
+  enabled = true
+[help]
+  autocorrect = prompt
+[core]
+  pager = delta
+[interactive]
+  diffFilter = delta --color-only
+[delta]
+  navigate = true
 [alias]
   fixup = "!git log -n 50 --pretty=format:'%h %s' --no-merges | fzf | cut -c -7 | xargs -o git commit --fixup"
 [init]
