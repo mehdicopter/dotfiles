@@ -135,7 +135,3 @@ autoload -U +X bashcompinit && bashcompinit
 if command -v terragrunt &>/dev/null; then
   complete -o nospace -C "$(command -v terragrunt)" terragrunt
 fi
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/mehdi.mahfoudi/.lmstudio/bin"
-# End of LM Studio CLI section
