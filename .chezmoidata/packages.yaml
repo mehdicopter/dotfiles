@@ -9,6 +9,8 @@ darwin:
     - fzf
     - gh
     - git
+    - git-absorb
+    - git-delta
     - gnu-sed
     - gnupg
     - gpgme
@@ -21,8 +23,8 @@ darwin:
     - powerlevel10k
     - qrencode
     - tree
+    - uv
     - vim
-    - virtualenvwrapper
     - watch
     - yamllint
     - ykman
@@ -35,16 +37,18 @@ darwin:
   casks:
     - 1password
     - 1password-cli
-    - alfred
     - flux
+    - ghostty
     - google-chrome
-    - iterm2
     - keepingyouawake
+    - raycast
     - rectangle
+    - visual-studio-code
+personal_apps:
+  casks:
     - signal
     - spotify
     - transmission
-    - visual-studio-code
     - vlc
     - whatsapp
 relevanc:
@@ -72,6 +76,16 @@ relevanc:
     - testssl
     - tflint
   casks:
-    - google-cloud-sdk
+    - gcloud-cli
     - google-drive
     - insomnia
+servier:
+  brews:
+    - glab
+    - helm
+    - kubectl
+    - kubectx
+    - pre-commit
+    - shellcheck
+  casks:
+    - gcloud-cli
