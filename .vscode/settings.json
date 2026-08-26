@@ -1,14 +1,36 @@
 {
+  "[dockercompose]": {
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
   "[hcl]": {
     "editor.defaultFormatter": "fredwangwang.vscode-hcl-format"
+  },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff"
   },
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform"
   },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
+  "application.shellEnvironmentResolutionTimeout": 30,
   "better-comments.multilineComments": true,
+  "chat.mcp.autostart": "newAndOutdated",
+  "claudeCode.preferredLocation": "panel",
   "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
   "editor.detectIndentation": false,
@@ -16,17 +38,31 @@
   "editor.guides.bracketPairs": "active",
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
   "extensions.ignoreRecommendations": true,
   "files.associations": {
+    "*.gotmpl": "go-template",
+    "**/*.gitlab-ci.yml": "yaml",
     "**/*.tmpl": "go-template",
-    "**/helmfile.yaml": "go-template",
-    "*.gotmpl": "go-template"
+    "**/helmfile.yaml": "go-template"
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "git.openRepositoryInParentFolders": "never",
+  "gitlab.duo.enabledWithoutGitlabProject": false,
+  "gitlab.duoChat.enabled": false,
+  "gitlab.duoCodeSuggestions.enabled": false,
+  "gitlab.keybindingHints.enabled": false,
+  "go.toolsManagement.autoUpdate": true,
   "hclformat.hclfmt_path": "/opt/homebrew/bin/hclfmt",
-  "http.proxyStrictSSL": false,
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none",
+    "reportMissingModuleSource": "none"
+  },
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.terminal.activateEnvironment": true,
   "python.venvFolders": [
     "~/.virtualenvs"
   ],
@@ -37,20 +73,33 @@
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terraform.experimentalFeatures.validateOnSave": true,
   "vs-kubernetes": {
-    "vs-kubernetes.crd-code-completion": "disabled"
+    "disable-linters": [
+      "resource-limits"
+    ],
+    "vs-kubernetes.crd-code-completion": "disabled",
+    "vscode-kubernetes.helm-path-mac": "/Users/mehdi.mahfoudi/.vs-kubernetes/tools/helm/darwin-arm64/helm",
+    "vscode-kubernetes.kubectl-path-mac": "/Users/mehdi.mahfoudi/.vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path-mac": "/Users/mehdi.mahfoudi/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
   },
   "workbench.colorTheme": "Atom One Dark",
   "workbench.iconTheme": "vs-seti",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.startupEditor": "none",
   "yaml.customTags": [
     "!reference sequence",
   ],
-  "yaml.format.bracketSpacing": true,
+  "yaml.format.bracketSpacing": false,
   "yaml.format.singleQuote": false,
-  "explorer.confirmDragAndDrop": false,
-  "git.openRepositoryInParentFolders": "never",
-  "[xml]": {
-    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  "yaml.schemas": {
+    "file:///Users/mehdi.mahfoudi/.vscode/extensions/atlassian.atlascode-4.0.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+    "kubernetes": "*.yaml,!kustomization.yaml"
   },
-  "prettier.singleQuote": false
+  "yaml.schemaStore.enable": true,
+  "http.experimental.systemCertificatesV2": true,
+  "http.useLocalProxyConfiguration": false,
+  "http.systemCertificatesNode": true,
+  "[terragrunt]": {
+    "editor.defaultFormatter": "SeemsCloud.terragrunt-hcl-formatter",
+  },
+  "claudeCode.environmentVariables": [],
 }
