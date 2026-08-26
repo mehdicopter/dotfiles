@@ -5,8 +5,16 @@
   signingkey = 0xBD294252A04ADE1C!
 [commit]
   gpgsign = true
+[column]
+  ui = auto
+[branch]
+  sort = -committerdate
+[color]
+  ui = true
 [pull]
   rebase = true
+[pager]
+  branch = false
 [push]
   default = upstream
   followTags = true
