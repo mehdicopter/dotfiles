@@ -83,7 +83,6 @@ plugins=(
   gpg-agent
   kubectl
   macos
-  nvm
   terraform
   vscode
   web-search

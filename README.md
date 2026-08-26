@@ -26,6 +26,9 @@ Two prompts customize the machine:
 - [KeepingYouAwake](https://keepingyouawake.app/) - Prevents your Mac from going to sleep
 - [Visual Studio Code](https://code.visualstudio.com/) - Code Editor
 - [Raycast](https://raycast.com/)
+- [Claude Code](https://claude.com/claude-code) - AI coding agent
+- [Firefox](https://www.firefox.com/)
+- [Slack](https://slack.com/)
 
 #### Personal apps (installed if `personal` is true)
 
@@ -41,8 +44,10 @@ Two prompts customize the machine:
 
 - [gcloud](https://cloud.google.com/cli/)
 - [glab](https://gitlab.com/gitlab-org/cli)
+- [k9s](https://k9scli.io/)
 - [kubectl](https://kubernetes.io/docs/reference/kubectl/)
 - [kubectx](https://github.com/ahmetb/kubectx) + `kubens`
+- [kustomize](https://kustomize.io/)
 - [helm](https://helm.sh/)
 - [pre-commit](https://pre-commit.com/)
 - [shellcheck](https://www.shellcheck.net/)
@@ -75,6 +80,7 @@ Two prompts customize the machine:
 - [fx](https://github.com/antonmedv/fx)
 - [yq](https://github.com/mikefarah/yq)
 - [bat](https://github.com/sharkdp/bat)
+- [ruff](https://docs.astral.sh/ruff/)
 - [uv](https://docs.astral.sh/uv/)
 - [vim](https://www.vim.org/)
 - [yamllint](https://github.com/adrienverge/yamllint)

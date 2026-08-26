@@ -22,6 +22,8 @@ darwin:
     - pinentry-mac
     - powerlevel10k
     - qrencode
+    - ruff
+    - tig
     - tree
     - uv
     - vim
@@ -36,12 +38,15 @@ darwin:
     - zsh-syntax-highlighting
   casks:
     - 1password
+    - claude-code
+    - firefox
     - flux-app
     - ghostty
     - google-chrome
     - keepingyouawake
     - raycast
     - rectangle
+    - slack
     - visual-studio-code
 personal_apps:
   casks:
@@ -63,8 +68,10 @@ relevanc:
     - helm
     - norwoodj/tap/helm-docs
     - helmfile
+    - k9s
     - kubectl
     - kubectx
+    - kustomize
     - pre-commit
     - shellcheck
     - sops
@@ -79,8 +86,10 @@ servier:
   brews:
     - glab
     - helm
+    - k9s
     - kubectl
     - kubectx
+    - kustomize
     - pre-commit
     - shellcheck
   casks:
