@@ -52,7 +52,6 @@ personal_apps:
     - whatsapp
 relevanc:
   brews:
-    - berglas
     - colima
     - derailed/popeye/popeye
     - docker-buildx
@@ -73,9 +72,9 @@ relevanc:
     - terraform-docs
     - terragrunt
   casks:
+    - bruno
     - gcloud-cli
     - google-drive
-    - insomnia
 servier:
   brews:
     - glab
