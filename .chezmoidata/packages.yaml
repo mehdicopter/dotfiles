@@ -37,7 +37,7 @@ darwin:
   casks:
     - 1password
     - 1password-cli
-    - flux
+    - flux-app
     - ghostty
     - google-chrome
     - keepingyouawake
@@ -74,7 +74,6 @@ relevanc:
     - terraform-docs
     - terragrunt
     - testssl
-    - tflint
   casks:
     - gcloud-cli
     - google-drive
