@@ -29,3 +29,7 @@ palette = 15=#ffffff
 
 macos-option-as-alt = true
 mouse-hide-while-typing = true
+
+# New tabs/windows always start in $HOME instead of inheriting the cwd
+working-directory = home
+window-inherit-working-directory = false
