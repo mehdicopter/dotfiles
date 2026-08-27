@@ -31,5 +31,10 @@ macos-option-as-alt = true
 mouse-hide-while-typing = true
 
 # New tabs/windows always start in $HOME instead of inheriting the cwd
+# (splits keep inheriting — usually what you want)
 working-directory = home
 window-inherit-working-directory = false
+tab-inherit-working-directory = false
+
+# Double-click/selection copies straight to the system clipboard (cmd+v)
+copy-on-select = clipboard
