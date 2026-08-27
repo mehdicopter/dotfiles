@@ -1,13 +1,10 @@
-# Ghostty — https://ghostty.org/docs/config
 font-family = MesloLGS Nerd Font
 font-size = 13
-# Match iTerm2's heavier glyph rendering and roomier line spacing
 font-thicken = true
 adjust-cell-height = 10%
 window-padding-x = 8
 window-padding-y = 6
 
-# Palette carried over from the old iTerm2 "Default" profile
 background = #1d262a
 foreground = #e7ebed
 palette = 0=#435b67
@@ -30,11 +27,8 @@ palette = 15=#ffffff
 macos-option-as-alt = true
 mouse-hide-while-typing = true
 
-# New tabs/windows always start in $HOME instead of inheriting the cwd
-# (splits keep inheriting — usually what you want)
 working-directory = home
 window-inherit-working-directory = false
 tab-inherit-working-directory = false
 
-# Double-click/selection copies straight to the system clipboard (cmd+v)
 copy-on-select = clipboard
