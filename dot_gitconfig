@@ -12,6 +12,7 @@
   ui = auto
 [branch]
   sort = -committerdate
+  autoSetupMerge = simple
 [color]
   ui = true
 [pull]
@@ -19,7 +20,7 @@
 [pager]
   branch = false
 [push]
-  default = upstream
+  default = simple
   followTags = true
   autoSetupRemote = true
   useForceIfIncludes = true
