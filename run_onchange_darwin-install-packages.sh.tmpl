@@ -2,6 +2,11 @@
 #!/bin/bash
 
 /opt/homebrew/bin/brew bundle --file=/dev/stdin <<EOF
+{{ if hasKey .darwin "taps" -}}
+{{ range .darwin.taps -}}
+tap {{ . | quote }}
+{{ end -}}
+{{ end -}}
 {{ range .darwin.brews -}}
 brew {{ . | quote }}
 {{ end -}}
@@ -11,6 +16,11 @@ cask {{ . | quote }}
 {{ if .company -}}
 {{ with index . .company -}}
 ## {{ $.company }}
+{{ if hasKey . "taps" -}}
+{{ range .taps -}}
+tap {{ . | quote }}
+{{ end -}}
+{{ end -}}
 {{ range .brews -}}
 brew {{ . | quote }}
 {{ end -}}
