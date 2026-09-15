@@ -28,8 +28,10 @@ darwin:
     - uv
     - vim
     - watch
+    - wget
     - yamllint
     - ykman
+    - yubikey-personalization
     - yq
     - zsh
     - zsh-autosuggestions
@@ -38,7 +40,6 @@ darwin:
     - zsh-syntax-highlighting
   casks:
     - 1password
-    - claude-code
     - flux-app
     - font-meslo-lg-nerd-font
     - ghostty
