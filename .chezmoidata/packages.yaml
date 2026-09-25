@@ -39,7 +39,6 @@ darwin:
     - zsh-history-substring-search
     - zsh-syntax-highlighting
   casks:
-    - 1password
     - flux-app
     - font-meslo-lg-nerd-font
     - ghostty
@@ -47,51 +46,30 @@ darwin:
     - keepingyouawake
     - raycast
     - rectangle
-    - slack
     - visual-studio-code
 personal_apps:
   casks:
-    - signal
+    - 1password
     - spotify
-    - transmission
     - vlc
     - whatsapp
-relevanc:
-  brews:
-    - colima
-    - derailed/popeye/popeye
-    - docker-buildx
-    - docker-compose
-    - docker
-    - glab
-    - golang
-    - hadolint
-    - helm
-    - norwoodj/tap/helm-docs
-    - helmfile
-    - k9s
-    - kubectl
-    - kubectx
-    - kustomize
-    - pre-commit
-    - shellcheck
-    - sops
-    - hashicorp/tap/terraform
-    - terraform-docs
-    - terragrunt
-  casks:
-    - bruno
-    - gcloud-cli
-    - google-drive
 servier:
   brews:
     - glab
+    - hadolint
+    - hashicorp/tap/terraform
     - helm
     - k9s
     - kubectl
     - kubectx
     - kustomize
+    - mise
     - pre-commit
     - shellcheck
   casks:
+    - arc
+    - bruno
     - gcloud-cli
+    - microsoft-teams
+    - microsoft-outlook
+    - onedrive
