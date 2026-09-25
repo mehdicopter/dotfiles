@@ -30,7 +30,6 @@
   "application.shellEnvironmentResolutionTimeout": 30,
   "better-comments.multilineComments": true,
   "chat.mcp.autostart": "newAndOutdated",
-  "claudeCode.preferredLocation": "panel",
   "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
   "editor.detectIndentation": false,
@@ -54,18 +53,7 @@
   "gitlab.duoChat.enabled": false,
   "gitlab.duoCodeSuggestions.enabled": false,
   "gitlab.keybindingHints.enabled": false,
-  "go.toolsManagement.autoUpdate": true,
   "hclformat.hclfmt_path": "/opt/homebrew/bin/hclfmt",
-  "python.analysis.diagnosticSeverityOverrides": {
-    "reportMissingImports": "none",
-    "reportMissingModuleSource": "none"
-  },
-  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
-  "python.terminal.activateEnvInCurrentTerminal": true,
-  "python.terminal.activateEnvironment": true,
-  "python.venvFolders": [
-    "~/.virtualenvs"
-  ],
   "redhat.telemetry.enabled": false,
   "telemetry.telemetryLevel": "off",
   "terminal.external.osxExec": "iTerm.app",
@@ -98,8 +86,4 @@
   "http.experimental.systemCertificatesV2": true,
   "http.useLocalProxyConfiguration": false,
   "http.systemCertificatesNode": true,
-  "[terragrunt]": {
-    "editor.defaultFormatter": "SeemsCloud.terragrunt-hcl-formatter",
-  },
-  "claudeCode.environmentVariables": [],
 }
