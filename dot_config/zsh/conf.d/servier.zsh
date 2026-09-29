@@ -8,9 +8,9 @@ zscaler() {
   )
   if launchctl print system/com.zscaler.service &>/dev/null; then
     sudo launchctl unload $plists[1] && sudo launchctl unload $plists[2] && \
-      echo "Zscaler disabled"
+      print -P "%F{red}%B✗ Zscaler disabled%b%f"
   else
     sudo launchctl load $plists[1] && sudo launchctl load $plists[2] && \
-      echo "Zscaler enabled"
+      print -P "%F{green}%B✓ Zscaler enabled%b%f"
   fi
 }
