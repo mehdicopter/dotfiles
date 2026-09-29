@@ -4,3 +4,7 @@ install.sh
 .git/
 LICENSE
 .vscode
+
+{{ if ne .company "servier" -}}
+.config/zsh/conf.d/servier.zsh
+{{ end -}}

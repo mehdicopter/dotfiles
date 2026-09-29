@@ -123,3 +123,7 @@ autoload -U +X bashcompinit && bashcompinit
 if command -v terragrunt &>/dev/null; then
   complete -o nospace -C "$(command -v terragrunt)" terragrunt
 fi
+
+# Extra config (company-specific, local...) — see ~/.config/zsh/conf.d/
+for f in ~/.config/zsh/conf.d/*.zsh(N); do source "$f"; done
+unset f
