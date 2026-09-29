@@ -50,6 +50,7 @@ darwin:
 personal_apps:
   casks:
     - 1password
+    - 1password-cli
     - spotify
     - vlc
     - whatsapp
