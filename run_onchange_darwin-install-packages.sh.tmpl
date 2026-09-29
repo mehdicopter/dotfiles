@@ -26,4 +26,13 @@ cask {{ . | quote }}
 {{ end -}}
 {{ end -}}
 EOF
+
+# Homebrew may have just upgraded gnupg. A gpg-agent started before the upgrade
+# keeps running against a deleted Cellar prefix and fails to spawn pinentry
+# ("gpg: signing failed: No pinentry"), until the next login. Restart it so the
+# agent always matches the installed gnupg.
+if [ -x /opt/homebrew/bin/gpgconf ] && pgrep -qx gpg-agent; then
+  /opt/homebrew/bin/gpgconf --kill gpg-agent
+  /opt/homebrew/bin/gpgconf --launch gpg-agent
+fi
 {{ end -}}
