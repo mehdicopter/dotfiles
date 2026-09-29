@@ -61,24 +61,39 @@ setopt SHARE_HISTORY             # Share history between all sessions.
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  aliases
-  brew
-  command-not-found
-  common-aliases
-  copyfile
-  docker-compose
-  docker
-  encode64
-  extract
-  fzf
-  gh
-  git
-  gpg-agent
-  kubectl
-  macos
+  # Cloud, K8s & Infra
   terraform
+  kubectl
+  kubectx
+  helm
+  k9s
+
+  # Git & Forge
+  git
+  glab
+  gh
+
+  # SRE & Dev tools
+  1password
+  mise
+  uv
+  brew
+  fzf
+  gpg-agent
   vscode
+
+  # Productivity & macOS system
+  macos
+  sudo
+  colored-man-pages
+  extract
+  copyfile
+  copypath
+  encode64
+  jira
   web-search
+  aliases
+  common-aliases
 )
 
 source "$ZSH/oh-my-zsh.sh"
