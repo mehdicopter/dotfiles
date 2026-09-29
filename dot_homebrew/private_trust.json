@@ -1,8 +1,10 @@
 {
   "trustedformulae": [
+    "anomalyco/tap/opencode-v2",
     "hashicorp/tap/terraform"
   ],
   "trustedtaps": [
+    "anomalyco/tap",
     "derailed/popeye",
     "hashicorp/tap",
     "norwoodj/tap"

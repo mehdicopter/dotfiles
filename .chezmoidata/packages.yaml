@@ -55,6 +55,7 @@ personal_apps:
     - whatsapp
 servier:
   brews:
+    - anomalyco/tap/opencode-v2
     - glab
     - hadolint
     - hashicorp/tap/terraform
