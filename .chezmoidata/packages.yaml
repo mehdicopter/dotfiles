@@ -65,6 +65,7 @@ servier:
     - kubectl
     - kubectx
     - kustomize
+    - marp-cli
     - mise
     - pre-commit
     - shellcheck
