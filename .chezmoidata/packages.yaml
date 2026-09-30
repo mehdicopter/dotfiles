@@ -42,7 +42,6 @@ darwin:
     - flux-app
     - font-meslo-lg-nerd-font
     - ghostty
-    - google-chrome
     - keepingyouawake
     - raycast
     - rectangle
