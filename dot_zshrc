@@ -142,3 +142,12 @@ fi
 # Extra config (company-specific, local...) — see ~/.config/zsh/conf.d/
 for f in ~/.config/zsh/conf.d/*.zsh(N); do source "$f"; done
 unset f
+fixaccents() {
+  local pid=$(ioreg -l -w 0 | grep -o '"kCGSSessionSecureInputPID"=[0-9]*' | grep -o '[0-9]*$' | sort -u | grep -v '^0$' | head -1)
+  if [[ -n "$pid" ]]; then
+    echo "Entrée sécurisée bloquée par : $(ps -p $pid -o comm= | xargs basename) (PID $pid)"
+    echo "Quitte cette application pour récupérer les accents."
+  else
+    echo "Aucune application ne bloque l'entrée sécurisée."
+  fi
+}
